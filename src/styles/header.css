@@ -2,12 +2,17 @@
   height: 350px;
   background-image: url("../../src/assets/images/Group.svg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .mem-con {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
   align-items: center;
   height: 100%;
 }
@@ -23,7 +28,7 @@
   align-items: center;
 }
 .mem-con2 {
-  border: 2px #826145 solid;
+  border: 1px #826145 solid;
   height: 160px;
   width: 270px;
   border-radius: 4px;
@@ -37,13 +42,13 @@
 }
 
 .mem-oro {
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 700;
   color: #4c3928;
 }
 
 .mem-oro2 {
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 700;
   color: #4c3928;
 }
@@ -52,4 +57,70 @@
   font-size: 20px;
   font-weight: 500;
   color: #4c3928;
+  font-family: "Inter", sans-serif;
+}
+
+.socials {
+  background-color: rgba(144, 157, 173, 0.2);
+  border-radius: 4px;
+  height: 56px;
+  width: 312px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  bottom: 10%;
+  margin-left: 40%;
+  /* padding-bottom: 2%; */
+}
+.socials-img {
+  width: 100%;
+}
+.fabric-a {
+  width: 100%;
+}
+.fabric {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* responsive styling */
+@media screen and (min-width: 100px) and (max-width: 299px) {
+}
+@media screen and (min-width: 300px) and (max-width: 380px) {
+}
+@media screen and (min-width: 380px) and (max-width: 500px) {
+  .mem-con1 {
+    height: 140px;
+    width: 250px;
+  }
+  .mem-con2 {
+    height: 140px;
+    width: 190px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 850px) {
+}
+@media screen and (min-width: 851px) and (max-width: 1200px) {
+}
+
+/* general */
+@media screen and (max-width: 850px) {
+  .members {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+  .mem-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .socials {
+    position: static;
+    margin-left: 0%;
+  }
+  .fabric {
+    width: 100%;
+  }
 }

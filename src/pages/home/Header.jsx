@@ -1,4 +1,9 @@
 import "../../styles/header.css";
+import twitter from "../../assets/icons/TwitterLogo.svg";
+import facebook from "../../assets/icons/FacebookLogo.svg";
+import instagram from "../../assets/icons/InstagramLogo.svg";
+import youtube from "../../assets/icons/YoutubeLogo.svg";
+import fabric from "../../assets/images/Fabric texture background.svg";
 
 const Header = () => {
   return (
@@ -24,6 +29,23 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <div className="socials">
+          <a href="/#">
+            <img src={twitter} alt="twitter" className="socials-img"></img>
+          </a>
+          <a href="/#">
+            <img src={facebook} alt="twitter" className="socials-img"></img>
+          </a>
+          <a href="/#">
+            <img src={instagram} alt="twitter" className="socials-img"></img>
+          </a>
+          <a href="/#">
+            <img src={youtube} alt="twitter" className="socials-img"></img>
+          </a>
+        </div>
+      </div>
+      <div className="fabric-a">
+        <img src={fabric} alt="yoruba fabric" className="fabric" />
       </div>
     </>
   );
