@@ -65,6 +65,11 @@
   margin-top: 48px;
   cursor: pointer;
 }
+.mis-button:hover {
+  background-image: url("../assets/images/grunge.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .fabric {
   width: 100%;
   object-fit: cover;

@@ -8,12 +8,13 @@
   width: 700px;
   height: 680px;
   border-radius: 20px;
+  width: fit-content;
 }
 
 .ankara {
   object-fit: contain;
   width: 100%;
-  border-radius: 20px 15px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 .cont-w1 {
@@ -98,6 +99,8 @@
 .paper-b {
   margin-left: 9px;
 }
+@media screen and (min-width: 100px) and (max-width: 299px) {
+}
 
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .cont-a {
@@ -130,7 +133,7 @@
 @media screen and (min-width: 381px) and (max-width: 500px) {
   .cont-a {
     width: 310px;
-    height: 500px;
+    height: 530px;
   }
   .cont-input {
     width: 240px;
