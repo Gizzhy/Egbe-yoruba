@@ -1,0 +1,74 @@
+.cont {
+  margin-top: 70px;
+}
+
+.cont-a {
+  background-color: #fbf6f1;
+  margin: auto;
+  width: 700px;
+  height: 680px;
+  border-radius: 20px;
+}
+
+.ankara {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 20px 15px 0 0;
+}
+
+.cont-w1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Rugral";
+  color: #4c3928;
+  text-align: center;
+}
+.cont-w2 {
+  color: #546881;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.cont-form {
+  margin: auto;
+  width: 80%;
+}
+.cont-input {
+  width: 555px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #826145;
+  color: white;
+  font-size: 20px;
+}
+.cont-inputt {
+  background-color: white;
+  border: 1px #f28c0f solid;
+  width: 555px;
+  height: 125px;
+  border-radius: 16px;
+  font-size: 20px;
+}
+.conbut-a {
+  text-align: center;
+  /* width: 40%;
+  margin: auto; */
+}
+.cont-button {
+  color: white;
+  border: 0;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #f28c0f;
+  border-radius: 10px;
+  height: 60px;
+  width: 250px;
+  margin-top: 25px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.paper-b {
+  margin-left: 9px;
+}
