@@ -12,13 +12,28 @@ const Contactsmall = () => {
           <div className="cont-form">
             <form action="/#">
               <p className="cont-w2">Name</p>
-              <input type="text" name="name" className="cont-input"></input>
+              <input
+                type="text"
+                name="name"
+                className="cont-input"
+                required
+              ></input>
               {/* next */}
               <p className="cont-w2">E-mail Address</p>
-              <input type="text" name="name" className="cont-input"></input>
+              <input
+                type="text"
+                name="name"
+                className="cont-input"
+                required
+              ></input>
               {/* next */}
               <p className="cont-w2">Message</p>
-              <input type="text" name="name" className="cont-inputt"></input>
+              <input
+                type="text"
+                name="name"
+                className="cont-inputt"
+                required
+              ></input>
               <div className="conbut-a">
                 <button className="cont-button">
                   <p>Send Message</p>

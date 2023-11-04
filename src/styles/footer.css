@@ -117,3 +117,6 @@ input {
 a {
   text-decoration: none;
 }
+
+@media screen and (min-width: 380px) and (max-width: 500px) {
+}
