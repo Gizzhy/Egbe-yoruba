@@ -34,6 +34,7 @@
   font-weight: 700;
   font-size: 30px;
   color: #4c3928;
+  font-family: "Rugral";
 }
 .mis-w-a1 {
   display: flex;
@@ -56,7 +57,7 @@
   background-color: #f28c0f;
   color: white;
   font-size: 17px;
-  width: 250px;
+  width: 100px;
   height: 50px;
   font-weight: 600;
   border: 0;

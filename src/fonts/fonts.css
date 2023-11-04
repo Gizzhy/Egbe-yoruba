@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Rugral";
+  src: local("Rugral"), url("./Rugral.woff") format("woff"),
+    url("./Rugral.otf") format("otf"), url("./Rugral.ttf") format("ttf");
+}

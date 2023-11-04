@@ -3,7 +3,6 @@ import yoruba1 from "../../assets/images/image 3.svg";
 import yoruba2 from "../../assets/images/image 4.svg";
 import yoruba3 from "../../assets/images/image 6.svg";
 import fabric from "../../assets/images/egyptian-1822015 1.svg";
-
 import yoruba4 from "../../assets/images/nigerian-woman1.svg";
 
 const Mission = () => {
@@ -61,7 +60,7 @@ const Mission = () => {
                 </div>
               </div>
             </div>
-            <button className="mis-button">Explore Yoruba Stories</button>
+            <button className="mis-button">Join Us</button>
           </div>
         </div>
         <div className="mission2">

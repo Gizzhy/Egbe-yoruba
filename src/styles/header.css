@@ -3,45 +3,48 @@
   background-image: url("../../src/assets/images/Group.svg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   /* justify-content: space-evenly; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 
+/* Header.css */
+
 .mem-con {
+  height: 160px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: #fbf6f1;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly !important;
+  justify-content: center;
   align-items: center;
-  height: 100%;
+  transition: border 0.1s;
+  margin: 15px; /* Add margin to create space between the divs */
+}
+
+.mem-con.active {
+  border: 5px solid #d9a273;
 }
 
 .mem-con1 {
-  border: 2px #d9a273 solid;
-  height: 160px;
-  width: 330px;
-  border-radius: 4px;
-  background-color: #fbf6f1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid #826145;
 }
+
 .mem-con2 {
-  border: 1px #826145 solid;
-  height: 160px;
-  width: 270px;
-  border-radius: 4px;
-  background-color: #fbf6f1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid #826145;
 }
+
+.mem-con3 {
+  border: 1px solid #826145;
+}
+
 .mem-a {
   text-align: center;
 }
 
 .mem-oro {
+  font-family: "Rugral";
   font-size: 35px;
   font-weight: 700;
   color: #4c3928;
@@ -59,6 +62,12 @@
   color: #4c3928;
   font-family: "Inter", sans-serif;
 }
+.mem-con.active .mem-oro {
+  color: #f28c0f;
+}
+.mem-con.active .mem-oro2-2 {
+  font-weight: 600;
+}
 
 .socials {
   background-color: rgba(144, 157, 173, 0.2);
@@ -68,8 +77,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
-  bottom: 10%;
+  margin-bottom: 20px;
   margin-left: 40%;
   /* padding-bottom: 2%; */
 }
@@ -86,22 +94,37 @@
 
 /* responsive styling */
 @media screen and (min-width: 100px) and (max-width: 299px) {
-}
-@media screen and (min-width: 300px) and (max-width: 380px) {
-}
-@media screen and (min-width: 380px) and (max-width: 500px) {
-  .mem-con1 {
-    height: 140px;
-    width: 250px;
+  .mem-con {
+    height: 130px;
+    width: 240px;
   }
-  .mem-con2 {
-    height: 140px;
+  .socials {
     width: 190px;
   }
 }
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .mem-con {
+    height: 140px;
+    width: 250px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 500px) {
+  .mem-con {
+    height: 140px;
+    width: 250px;
+  }
+}
 @media screen and (min-width: 501px) and (max-width: 850px) {
+  .mem-con {
+    height: 150px;
+    width: 260px;
+  }
 }
 @media screen and (min-width: 851px) and (max-width: 1200px) {
+  .mem-con {
+    height: 160px;
+    width: 290px;
+  }
 }
 
 /* general */
@@ -110,6 +133,7 @@
     height: 600px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   .mem-con {
     display: flex;
@@ -118,7 +142,7 @@
   }
   .socials {
     position: static;
-    margin-left: 0%;
+    margin: auto;
   }
   .fabric {
     width: 100%;
