@@ -3,6 +3,7 @@
 }
 
 .cont-a {
+  border: 1px #909dad solid;
   background-color: #fbf6f1;
   margin: auto;
   width: 700px;
@@ -132,7 +133,7 @@
 }
 @media screen and (min-width: 381px) and (max-width: 500px) {
   .cont-a {
-    width: 310px;
+    width: 350px;
     height: 530px;
   }
   .cont-input {

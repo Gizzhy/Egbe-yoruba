@@ -4,8 +4,21 @@ import yoruba2 from "../../assets/images/image 4.svg";
 import yoruba3 from "../../assets/images/image 6.svg";
 import fabric from "../../assets/images/egyptian-1822015 1.svg";
 import yoruba4 from "../../assets/images/nigerian-woman1.svg";
+import React, { useState, useEffect } from "react";
 
 const Mission = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const misWAColors = ["#FBDBB5", "#FFFFFF", "#FFFFFF"]; // Add desired background colors
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prevIndex) => (prevIndex + 1) % misWAColors.length);
+    }, 2000); // Change background color every 5 seconds (adjust as needed)
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
   return (
     <>
       <div className="mission">
@@ -16,7 +29,13 @@ const Mission = () => {
           <div className="mission1-2">
             <p className="mis-w">Our Mission And Goal</p>
             <div className="mis-w-a">
-              <div className="mis-w-a1">
+              <div
+                className="mis-w-a1"
+                style={{
+                  backgroundColor:
+                    misWAColors[(activeIndex + 2) % misWAColors.length],
+                }}
+              >
                 <div className="mis-w-a1-1">
                   <img
                     src={yoruba3}
@@ -31,7 +50,13 @@ const Mission = () => {
                 </div>
               </div>
               {/* another */}
-              <div className="mis-w-a1">
+              <div
+                className="mis-w-a2"
+                style={{
+                  backgroundColor:
+                    misWAColors[(activeIndex + 1) % misWAColors.length],
+                }}
+              >
                 <div className="mis-w-a1-1">
                   <img
                     src={yoruba2}
@@ -46,7 +71,10 @@ const Mission = () => {
                 </div>
               </div>
               {/* another */}
-              <div className="mis-w-a1">
+              <div
+                className="mis-w-a3"
+                style={{ backgroundColor: misWAColors[activeIndex] }}
+              >
                 <div className="mis-w-a1-1">
                   <img
                     src={yoruba1}

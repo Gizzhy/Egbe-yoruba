@@ -22,7 +22,8 @@
 .hero-w {
   font-size: 65px;
   font-weight: 700;
-  color: black;
+  color: #4c3928;
+
   font-family: "Rugral";
   letter-spacing: 4px;
 }
@@ -38,6 +39,7 @@
   color: #1d242d;
   font-family: "Inter", sans-serif;
   font-size: 25px;
+  font-weight: 500;
 }
 @media screen and (min-width: 100px) and (max-width: 299px) {
   .hero2 {
@@ -86,6 +88,7 @@
   }
   .hero-w {
     font-size: 25px;
+    font-weight: 600;
   }
   .hero-w2 {
     width: 100%;
