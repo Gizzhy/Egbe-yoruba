@@ -47,9 +47,12 @@
   font-size: 14px;
   font-weight: 400;
 }
+.foot-last {
+  width: 100%;
+}
 .foot-last-img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .foot-icon {
   margin-right: 10px;
@@ -149,6 +152,9 @@ a {
   }
   .footer1-1 {
     padding-left: 0;
+  }
+  .foot-b {
+    height: 44px;
   }
 }
 @media screen and (min-width: 501px) and (max-width: 850px) {
