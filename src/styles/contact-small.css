@@ -9,7 +9,7 @@
   width: 700px;
   height: 680px;
   border-radius: 20px;
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 .ankara {
@@ -30,6 +30,14 @@
   font-size: 20px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
+}
+.akk {
+  background-image: url("../assets/images/contactfabric.svg");
+  width: 100%;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
 }
 .cont-form {
   margin: auto;
@@ -109,11 +117,11 @@
     height: 500px;
   }
   .cont-input {
-    width: 230px;
+    width: 240px;
     height: 32px;
   }
   .cont-inputt {
-    width: 230px;
+    width: 240px;
     height: 100px;
   }
   .cont-w1 {
@@ -137,11 +145,11 @@
     height: 530px;
   }
   .cont-input {
-    width: 240px;
+    width: 275px;
     height: 32px;
   }
   .cont-inputt {
-    width: 240px;
+    width: 275px;
     height: 100px;
   }
   .cont-w1 {

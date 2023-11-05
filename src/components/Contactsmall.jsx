@@ -1,5 +1,4 @@
 import ".././styles/contact-small.css";
-import ankara from "../assets/images/contactfabric.svg";
 import paperplane from "../assets/icons/PaperPlaneTilt.svg";
 
 const Contactsmall = () => {
@@ -7,7 +6,8 @@ const Contactsmall = () => {
     <>
       <div className="cont">
         <div className="cont-a">
-          <img src={ankara} alt="ankara" className="ankara" />
+          <div className="akk"></div>
+          {/* <img src={ankara} alt="ankara" className="ankara" /> */}
           <p className="cont-w1">Contact Us</p>
           <div className="cont-form">
             <form action="/#">

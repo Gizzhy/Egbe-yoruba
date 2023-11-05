@@ -1,11 +1,14 @@
 import ".././styles/footer.css";
 import logo from ".././assets/images/logo.svg";
 import location from ".././assets/icons/location.svg";
-import last from ".././assets/images/last footer.svg";
+import call from ".././assets/icons/phone.svg";
+import mail from ".././assets/icons/mail.svg";
+import x from ".././assets/icons/x.svg";
+
 import arrow from ".././assets/images/button arrow.svg";
-import fb from ".././assets/icons/FacebookLogo(foot).svg";
-import insta from ".././assets/icons/InstagramLogo(foot).svg";
-import yt from ".././assets/icons/YoutubeLogo(foot).svg";
+import fb from ".././assets/icons/ffb.svg";
+import insta from ".././assets/icons/iin.svg";
+import yt from ".././assets/icons/youu.svg";
 
 const Footer = () => {
   return (
@@ -46,12 +49,12 @@ const Footer = () => {
                 <p className="foot-links">Contact Us</p>
               </a>
               <div className="foot-way">
-                <img src={location} alt="location" className="foot-icon" />
+                <img src={call} alt="location" className="foot-icon" />
                 <p className="foot-oro">+49 176 323 98400</p>
               </div>
               <br />
               <div className="foot-way">
-                <img src={location} alt="location" className="foot-icon" />
+                <img src={mail} alt="location" className="foot-icon" />
                 <p className="foot-oro">secretary@aypc-bayern.com</p>
               </div>
             </div>
@@ -74,7 +77,7 @@ const Footer = () => {
               </button>
             </form>
             <div className="foot-socials">
-              <img src={fb} alt="submit" className="foot-bbb" />
+              <img src={x} alt="submit" className="foot-bbb" />
               <img src={fb} alt="submit" className="foot-bbb" />
               <img src={insta} alt="submit" className="foot-bbb" />
               <img src={yt} alt="submit" className="foot-bbb" />
@@ -83,7 +86,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="foot-last">
-        <img src={last} alt="ankara" className="foot-last-img" />
+        {/* <img src={last} alt="ankara" className="foot-last-img" /> */}
       </div>
     </>
   );

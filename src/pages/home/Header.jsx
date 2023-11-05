@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../../styles/header.css";
-import twitter from "../../assets/icons/TwitterLogo.svg";
+import twitter from "../../assets/icons/xx.svg";
 import facebook from "../../assets/icons/FacebookLogo.svg";
 import instagram from "../../assets/icons/InstagramLogo.svg";
 import youtube from "../../assets/icons/YoutubeLogo.svg";
-import fabric from "../../assets/images/Fabric texture background.svg";
 
 const Header = () => {
   const memConClasses = ["mem-con1", "mem-con2", "mem-con3"];
@@ -67,9 +66,7 @@ const Header = () => {
           <img src={youtube} alt="youtube" className="socials-img" />
         </a>
       </div>
-      <div className="fabric-a">
-        <img src={fabric} alt="yoruba fabric" className="fabric" />
-      </div>
+      <div className="fabric-a"></div>
     </>
   );
 };
