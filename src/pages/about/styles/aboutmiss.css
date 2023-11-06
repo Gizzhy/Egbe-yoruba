@@ -1,0 +1,129 @@
+.about-miss1 {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 170px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.our-goal1 {
+  color: #553105;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Rugral";
+}
+.our-goal2 {
+  color: #1d242d;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.aboutoba {
+  width: 8%;
+}
+
+.mis-w-a1a,
+.mis-w-a2a,
+.mis-w-a3a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 600px;
+  height: 90px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  padding: 0 5px;
+  transition: background-color 0.5s; /* Transition background color over 0.5 seconds */
+}
+
+.mis-w-a1-2a {
+  font-family: "Inter", sans-serif;
+  color: #546881;
+  font-weight: 400;
+  width: 600px;
+  margin-left: 20px;
+}
+
+.mis-w-aaa {
+  margin-left: 200px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 299px) {
+}
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .about-miss1 {
+    margin-left: 0;
+    border-bottom: 1px #d9d9d9 solid;
+  }
+  .our-goal1 {
+    font-size: 25px;
+  }
+  .our-goal2,
+  .our-goal1 {
+    text-align: center;
+  }
+  .amout-miss1 {
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .mis-w-aaa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .mis-w-a1a,
+  .mis-w-a2a,
+  .mis-w-a3a {
+    width: 370px;
+    margin: auto;
+  }
+  .mis-w-a1-2a {
+    width: 100%;
+  }
+  .mis-w-a1-2a {
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 500px) {
+  .about-miss1 {
+    margin-left: 0;
+    border-bottom: 1px #d9d9d9 solid;
+  }
+  .our-goal1 {
+    font-size: 25px;
+  }
+  .our-goal2,
+  .our-goal1 {
+    text-align: center;
+  }
+  .amout-miss1 {
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .mis-w-aaa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .mis-w-a1a,
+  .mis-w-a2a,
+  .mis-w-a3a {
+    width: 370px;
+    margin: auto;
+  }
+  .mis-w-a1-2a {
+    width: 100%;
+  }
+  .mis-w-a1-2a {
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+}

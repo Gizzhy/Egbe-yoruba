@@ -1,0 +1,101 @@
+.ab-main {
+  padding: 30px;
+  /* object-fit: contain; */
+  /* width: 100%; */
+}
+
+.ab-2 {
+  color: #1d242d;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+.ab-3 {
+  color: #546881;
+  font-size: 20px;
+  line-height: 1.7em;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  padding: 0 40px;
+}
+
+.gongs-img {
+  /* position: relative;
+  z-index: 1;
+  top: 0;
+  left: 1200px; */
+  width: 100%;
+}
+
+.rrr {
+  margin-left: auto;
+  width: 15%;
+  /* justify-content: center; */
+  align-self: center;
+}
+.cattt {
+  display: flex;
+}
+
+.abb-a {
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
+}
+.gonggg {
+  margin-left: auto;
+}
+.gonggg2 {
+  margin-right: auto;
+}
+
+@media screen and (min-width: 100px) and (max-width: 299px) {
+  .gongs-imgg {
+    width: 80%;
+  }
+  .gongs-img {
+    width: 120%;
+  }
+  .rrr {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .gongs-imgg {
+    width: 80%;
+  }
+  .gongs-img {
+    width: 120%;
+  }
+  .rrr {
+    width: 25%;
+  }
+  .ab-3 {
+    font-size: 16px;
+    padding: 0;
+  }
+  .ab-2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 500px) {
+  .gongs-imgg {
+    width: 80%;
+  }
+  .gongs-img {
+    width: 120%;
+  }
+  .rrr {
+    width: 25%;
+  }
+  .ab-2 {
+    font-size: 30px;
+  }
+  .ab-3 {
+    font-size: 16px;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 850px) {
+}

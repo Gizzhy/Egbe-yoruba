@@ -58,16 +58,19 @@ const Navbar = () => {
           >
             <Link to="/about">About Us</Link>
           </li>
-          <li
-            className={`nav-link nav-item ${
-              activeLink === "/about" ? "active" : ""
-            }`}
-            data-aos="fade-left"
-            data-aos-duration="800"
-            data-aos-delay="600"
-          >
-            <Link to="/about">TY</Link>
-          </li>
+
+          {/* <Link to="/about">
+            <li
+              className={`nav-link nav-item ${
+                activeLink === "/about" ? "active" : ""
+              }`}
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="600"
+            >
+              TY
+            </li>
+          </Link> */}
           <li
             className="nav-item nav-link"
             data-aos="fade-left"
@@ -105,10 +108,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`mobile-nav ${isMobileNavVisible ? "show" : ""}`}>
-          <a href="/#">ABOUT</a>
+          <a href="/about">ABOUT</a>
           <a href="/#">EVENTS</a>
           <a href="/#">GALLERY</a>
-          <a href="/#">NEWS</a>
         </div>
       </nav>
     </>
