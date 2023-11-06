@@ -3,11 +3,15 @@
   width: 50%;
 }
 .nav-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 94vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  backdrop-filter: blur(5px);
+  background-color: white;
 
   padding: 31.36px 41px;
 }
@@ -69,9 +73,10 @@
 
 @media only screen and (max-width: 50em) {
   .nav-container {
-    backdrop-filter: blur(10px);
-    height: 50px;
+    background-color: white;
+    height: 40px;
     padding: 29.44px;
+    width: 89vw;
   }
   .nav-list {
     display: none;
@@ -106,7 +111,7 @@
 
   .mobile-nav {
     position: fixed;
-    top: 6.8rem; /* Adjust the top position as needed */
+    top: 6.1rem; /* Adjust the top position as needed */
     right: 0; /* Place it on the right side of the screen */
     width: 100vw; /* Take full width */
     height: 100vh;
@@ -149,4 +154,12 @@
 
 a {
   text-decoration: none;
+}
+
+/* Default styling for all navigation links */
+
+/* Styling for the active (current) navigation link */
+.nav-item.active a {
+  /* color: #4c3928;  */
+  color: #4c3928 !important;
 }

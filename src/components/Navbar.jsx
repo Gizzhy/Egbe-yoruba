@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import ".././styles/navbar.css";
 import logo from "../assets/images/logo.svg";
 
 const Navbar = () => {
+  const location = useLocation();
+  const [activeLink, setActiveLink] = useState(null);
   const [isMobileNavVisible, setMobileNavVisible] = useState(false);
 
   const toggleMobileNav = () => {
@@ -16,6 +20,9 @@ const Navbar = () => {
     bar2.classList.toggle("rotate");
     toggleMobileNav(); // Call your toggleMobileNav function when the nav-icon is clicked
   };
+  useEffect(() => {
+    setActiveLink(location.pathname);
+  }, [location.pathname]);
 
   return (
     <>
@@ -31,20 +38,35 @@ const Navbar = () => {
         </a>
         <ul className="nav-list">
           <li
-            className="nav-item nav-link"
+            className={`nav-link nav-item ${
+              activeLink === "/" ? "active" : ""
+            }`}
+            // data-aos="fade-left"
+            // data-aos-duration="800"
+            // data-aos-delay="600"
+          >
+            <Link to="/">Home</Link>
+          </li>
+
+          <li
+            className={`nav-link nav-item ${
+              activeLink === "/about" ? "active" : ""
+            }`}
+            // data-aos="fade-left"
+            // data-aos-duration="800"
+            // data-aos-delay="900"
+          >
+            <Link to="/about">About Us</Link>
+          </li>
+          <li
+            className={`nav-link nav-item ${
+              activeLink === "/about" ? "active" : ""
+            }`}
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="600"
           >
-            <a href="/#">Home</a>
-          </li>
-          <li
-            className="nav-item nav-link"
-            data-aos="fade-left"
-            data-aos-duration="800"
-            data-aos-delay="900"
-          >
-            <a href="/#">About Us</a>
+            <Link to="/about">TY</Link>
           </li>
           <li
             className="nav-item nav-link"
@@ -54,6 +76,7 @@ const Navbar = () => {
           >
             <a href="/#">Events & Gallery</a>
           </li>
+
           {/* <li
             className="nav-item nav-link"
             data-aos="fade-left"
