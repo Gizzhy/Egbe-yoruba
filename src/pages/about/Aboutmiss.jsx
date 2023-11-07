@@ -5,6 +5,7 @@ import aboutmiss2 from "../../assets/images/aboutmiss2.svg";
 import aboutmiss3 from "../../assets/images/aboutmiss3.svg";
 import aboutmiss4 from "../../assets/images/aboutmiss4.svg";
 import aboutmiss5 from "../../assets/images/aboutmiss5.svg";
+// import aboutframe from "../../assets/images/aboutframe.svg";
 
 import React, { useState, useEffect } from "react";
 

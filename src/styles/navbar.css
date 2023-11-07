@@ -30,10 +30,16 @@
 .nav-item a {
   color: #546881;
   font-family: "Inter", sans-serif;
-
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   cursor: pointer;
+}
+.nav-item a:hover {
+  background-image: url("../assets/images/grunge.svg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
 }
 .nav-end {
   display: flex;
@@ -163,4 +169,5 @@ a {
 .nav-item.active a {
   /* color: #4c3928;  */
   color: #4c3928 !important;
+  font-weight: 600;
 }

@@ -1,3 +1,11 @@
+.about-miss-main {
+  background-image: url("../../../assets/images/aboutframe.svg"),
+    url("../../../assets/images/nigerian-woman1.svg");
+  background-size: auto, contain;
+  background-position: left, right;
+  background-repeat: no-repeat;
+}
+
 .about-miss1 {
   display: inline-flex;
   align-items: center;
