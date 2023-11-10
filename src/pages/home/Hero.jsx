@@ -1,5 +1,5 @@
 import "../../styles/hero.css";
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 // import heroimg from "../../assets/images/hero-img.svg";
 
 const Hero = () => {

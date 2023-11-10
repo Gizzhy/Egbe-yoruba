@@ -2,7 +2,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Mission from "./Mission";
 import Navbar from "../../components/Navbar.jsx";
-import Preloader from "../../components/Preloader";
+// import Preloader from "../../components/Preloader";
 
 import Footer from "../../components/Footer.jsx";
 import Contactsmall from "../../components/Contactsmall";
