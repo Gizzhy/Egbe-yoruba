@@ -55,7 +55,7 @@ const Footer = () => {
               <br />
               <div className="foot-way">
                 <img src={mail} alt="location" className="foot-icon" />
-                <p className="foot-oro">secretary@aypc-bayern.com</p>
+                <p className="foot-oro">secretary@isokanyoruba.com</p>
               </div>
             </div>
           </div>

@@ -3,12 +3,14 @@ import Home from "./pages/home/Home";
 import "../src/fonts/fonts.css";
 import Animate from "./utils/Animate";
 import About from "./pages/about/About";
+import Preloader from "./components/Preloader";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
+      {/* <Preloader /> */}
       <Animate>
         <BrowserRouter>
           <Routes>
