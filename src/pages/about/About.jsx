@@ -11,7 +11,7 @@ import Aboutbody from "../../pages/about/Aboutbody";
 import Aboutmiss from "../../pages/about/Aboutmiss";
 import Executive from "../../pages/about/Executive";
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <Navbar />
@@ -19,12 +19,10 @@ const Home = () => {
       <Aboutbody />
       <Aboutmiss />
       <Executive />
-
       <Contactsmall />
-
       <Footer />
     </>
   );
 };
 
-export default Home;
+export default About;

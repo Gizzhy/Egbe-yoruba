@@ -21,7 +21,7 @@ const Footer = () => {
               We are non-governmental, non-profit and non- political
               organization based here in Munich. We are community of Nigerian
               immigrants here in the southern part of this country of which we
-              made Bayern, Germany as our second home.
+              made Germany as our second home.
             </p>
             <div className="foot-way">
               <img src={location} alt="location" className="foot-icon" />

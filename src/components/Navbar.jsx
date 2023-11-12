@@ -92,7 +92,7 @@ const Navbar = () => {
         <div className="nav-end">
           <div className="con-b">
             <a
-              href="/#"
+              href="/contact"
               className="contact-button"
               data-aos="fade-left"
               data-aos-duration="500"
@@ -108,6 +108,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`mobile-nav ${isMobileNavVisible ? "show" : ""}`}>
+          <a href="/">HOME</a>
           <a href="/about">ABOUT</a>
           <a href="/#">EVENTS</a>
           <a href="/#">GALLERY</a>
