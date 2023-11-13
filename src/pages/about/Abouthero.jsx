@@ -10,7 +10,7 @@ const Abouthero = () => {
           <div className="arrr">
             <img src={arrow2} alt="about" className="arrr-img" />
           </div>
-          <p className="hero-22">ASSOCIATION OF YORUBA PROGRESSIVE COMMUNITY</p>
+          <p className="hero-22">Egbé ísòkan Omo Yorùbá Germany</p>
         </div>
       </div>
     </>
