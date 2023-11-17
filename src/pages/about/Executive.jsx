@@ -15,6 +15,30 @@ const Executive = () => {
             </p>
           </div>
         </div>
+
+        {/* next */}
+        {/* next */}
+        {/* next */}
+        {/* next */}
+
+        <div className="execu-p">
+          <div className="execu1">
+            <div className="execu1-1"></div>
+            <div className="execu1-2"></div>
+            <div className="execu1-3"></div>
+          </div>
+          {/* next */}
+          <div className="execu1">
+            <div className="execu1-1"></div>
+            <div className="execu1-3"></div>
+          </div>
+          {/* next */}
+          <div className="execu2">
+            <div className="execu1-1"></div>
+            <div className="execu1-2"></div>
+            <div className="execu1-3"></div>
+          </div>
+        </div>
       </div>
     </>
   );
