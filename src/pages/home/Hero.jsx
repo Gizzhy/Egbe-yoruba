@@ -25,9 +25,7 @@ const Hero = () => {
             Embrace the rich tapestry of Yoruba heritage in the heart of Germany
             with our vibrant association. As the bridge connecting Yoruba
             diaspora to the warmth of our roots, we celebrate the beauty of our
-            traditions, language, and community spirit. Join us on a journey
-            that transcends borders, fostering unity and preserving the essence
-            of Yoruba culture.
+            traditions, language, and community spirit.
           </p>
           <p className="hero-w3"> discover yoruba culture</p>
 
