@@ -86,8 +86,66 @@
 }
 
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .prov {
+    height: 850px;
+    flex-direction: column;
+  }
+  .prov1,
+  .prov2 {
+    width: 100%;
+    height: 100%;
+  }
+  .prov2 {
+    align-items: flex-start;
+  }
+  .prov1 {
+    background-image: url(".././assets/images/Yoruba-talking-drum.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    margin: 10px;
+  }
+  .prov-oro,
+  .prov-oro2 {
+    text-align: center;
+  }
+  .prov-oro {
+    font-size: 25px;
+  }
+  .prov-oro2 {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 380px) {
+  .prov {
+    height: 850px;
+    flex-direction: column;
+  }
+  .prov1,
+  .prov2 {
+    width: 100%;
+    height: 100%;
+  }
+  .prov2 {
+    align-items: flex-start;
+  }
+  .prov1 {
+    background-image: url(".././assets/images/Yoruba-talking-drum.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    margin: 10px;
+  }
+  .prov-oro,
+  .prov-oro2 {
+    text-align: center;
+  }
+  .prov-oro {
+    font-size: 25px;
+  }
+  .prov-oro2 {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 381px) and (max-width: 500px) {
   .prov {
