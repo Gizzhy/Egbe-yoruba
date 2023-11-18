@@ -60,6 +60,25 @@
   .hero-w3 {
     font-size: 16px;
   }
+  .hero-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: changeBackground 12s infinite;
+  }
+  @keyframes changeBackground {
+    0% {
+      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    }
+    33% {
+      background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
+    }
+    66% {
+      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    }
+    100% {
+      background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
+    }
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 380px) {
@@ -78,6 +97,30 @@
   }
   .hero-w3 {
     font-size: 18px;
+  }
+  .hero-main {
+    background-image: url(".././assets/images/dancing.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: changeBackground 12s infinite;
+  }
+  @keyframes changeBackground {
+    0% {
+      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    }
+    33% {
+      background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
+    }
+    66% {
+      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    }
+    100% {
+      background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
+    }
   }
 }
 
@@ -99,6 +142,25 @@
   .hero-w3 {
     font-size: 19px;
   }
+  .hero-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: changeBackground 12s infinite;
+  }
+  @keyframes changeBackground {
+    0% {
+      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    }
+    33% {
+      background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
+    }
+    66% {
+      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    }
+    100% {
+      background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
+    }
+  }
 }
 @media screen and (min-width: 501px) and (max-width: 850px) {
   .hero2 {
@@ -116,5 +178,24 @@
   }
   .hero-w3 {
     font-size: 21px;
+  }
+  .hero-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: changeBackground 12s infinite;
+  }
+  @keyframes changeBackground {
+    0% {
+      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    }
+    33% {
+      background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
+    }
+    66% {
+      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    }
+    100% {
+      background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
+    }
   }
 }

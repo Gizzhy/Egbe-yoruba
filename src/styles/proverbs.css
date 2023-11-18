@@ -1,0 +1,124 @@
+.prov {
+  display: flex;
+  height: 500px;
+  background-color: #624934;
+  background-image: url(".././assets/images/provlines.svg");
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.prov1 {
+  background-image: url(".././assets/images/Yoruba-talking-drum.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0px 75px 75px 0px;
+}
+.prov1,
+.prov2 {
+  width: 50%;
+  height: 90%;
+}
+.prov2 {
+  background-color: #624934;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(".././assets/images/provlines.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myDiv {
+  width: 500px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.myDiv.show,
+.myDivv.show,
+.myDivvv.show {
+  display: block;
+  opacity: 1;
+}
+
+.myDiv.hide,
+.myDivv.hide,
+.myDivvv.hide {
+  opacity: 0;
+}
+
+.myDivv {
+  width: 500px;
+  height: 190px;
+
+  margin: 10px;
+  padding: 10px;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.myDivvv {
+  width: 500px;
+  height: 190px;
+
+  margin: 10px;
+  padding: 10px;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+.prov-oro {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+
+  font-family: "Rugral";
+  letter-spacing: 4px;
+}
+.prov-oro2 {
+  text-transform: capitalize;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 100px) and (max-width: 299px) {
+}
+@media screen and (min-width: 300px) and (max-width: 380px) {
+}
+@media screen and (min-width: 381px) and (max-width: 500px) {
+  .prov {
+    height: 850px;
+    flex-direction: column;
+  }
+  .prov1,
+  .prov2 {
+    width: 100%;
+    height: 100%;
+  }
+  .prov2 {
+    align-items: flex-start;
+  }
+  .prov1 {
+    background-image: url(".././assets/images/Yoruba-talking-drum.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    margin: 10px;
+  }
+  .prov-oro,
+  .prov-oro2 {
+    text-align: center;
+  }
+  .prov-oro {
+    font-size: 25px;
+  }
+  .prov-oro2 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 850px) {
+}

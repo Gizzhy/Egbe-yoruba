@@ -44,9 +44,9 @@ const Mission = () => {
                   />
                 </div>
                 <div className="mis-w-a1-2">
-                  To promote unity, friendliness and love among the Yorubas in
-                  Bayern/Germany and in the Diaspora irrespective of political
-                  inclination, creed or sex.
+                  To preserve and promote the rich cultural heritage of the
+                  Yoruba people, including language, traditional arts, fostering
+                  a sense of identity among members in Germany.
                 </div>
               </div>
               {/* another */}
@@ -65,9 +65,9 @@ const Mission = () => {
                   />
                 </div>
                 <div className="mis-w-a1-2">
-                  To cherish, uphold and project the honour and dignity of
-                  Yoruba culture, language and tradition in Bayern Germany and
-                  the Diaspora.
+                  To empower the Yoruba diaspora community in Germany through
+                  collaborative projects that enhance the well-being and success
+                  of our members.
                 </div>
               </div>
               {/* another */}
@@ -83,8 +83,9 @@ const Mission = () => {
                   />
                 </div>
                 <div className="mis-w-a1-2">
-                  To create avenue for a social and cultural interaction among
-                  Yorubas and other nationalities.
+                  To foster a strong sense of unity among Yoruba individuals in
+                  Germany by providing a platform for networking, social
+                  interaction, building a closely-knit community.
                 </div>
               </div>
             </div>

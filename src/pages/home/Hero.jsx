@@ -22,9 +22,12 @@ const Hero = () => {
             Cultural Heritage */}
           </p>
           <p className="hero-w2">
-            Egbé ísòkan Omo Yorùbá Germany is a community of yoruba immigrants
-            in bayern germany which aims to bring yoruba people around germany
-            together and unite them through events.
+            Embrace the rich tapestry of Yoruba heritage in the heart of Germany
+            with our vibrant association. As the bridge connecting Yoruba
+            diaspora to the warmth of our roots, we celebrate the beauty of our
+            traditions, language, and community spirit. Join us on a journey
+            that transcends borders, fostering unity and preserving the essence
+            of Yoruba culture.
           </p>
           <p className="hero-w3"> discover yoruba culture</p>
 

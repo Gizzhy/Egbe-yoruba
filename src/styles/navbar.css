@@ -1,6 +1,7 @@
 .logo {
   cursor: pointer;
-  width: 50%;
+  width: 45%;
+  margin-right: -330px;
 }
 .nav-container {
   position: fixed;

@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ".././styles/navbar.css";
-import logo from "../assets/images/logo.svg";
+// import logo from "../assets/images/logo.svg";
+// import logo2 from "../assets/images/isokanlogo.jpg";
+import logo22 from "../assets/images/isokan22.jpeg";
 
 const Navbar = () => {
   const location = useLocation();
@@ -29,7 +31,7 @@ const Navbar = () => {
       <nav className="nav-container">
         <a href="/#">
           <img
-            src={logo}
+            src={logo22}
             className="logo"
             alt="yoruba"
             data-aos="fade-right"

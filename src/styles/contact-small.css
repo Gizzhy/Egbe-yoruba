@@ -109,20 +109,50 @@
   margin-left: 9px;
 }
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .cont-a {
+    width: 260px;
+    height: 540px;
+  }
+  .cont-input {
+    width: 200px;
+    height: 32px;
+    font-size: 14px;
+  }
+  .cont-inputt {
+    width: 200px;
+    height: 100px;
+    font-size: 14px;
+  }
+  .cont-w1 {
+    font-size: 20px;
+  }
+  .cont-w2 {
+    font-size: 16px;
+  }
+  .cont-button {
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .paper-b {
+    width: 12%;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .cont-a {
     width: 305px;
-    height: 500px;
+    height: 540px;
   }
   .cont-input {
     width: 240px;
     height: 32px;
+    font-size: 16px;
   }
   .cont-inputt {
     width: 240px;
     height: 100px;
+    font-size: 16px;
   }
   .cont-w1 {
     font-size: 20px;
@@ -147,10 +177,12 @@
   .cont-input {
     width: 275px;
     height: 32px;
+    font-size: 16px;
   }
   .cont-inputt {
     width: 275px;
     height: 100px;
+    font-size: 16px;
   }
   .cont-w1 {
     font-size: 20px;

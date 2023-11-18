@@ -1,5 +1,7 @@
 import "./styles/executive.css";
 import opaase from "../../assets/images/opaase.svg";
+// import Aboutslider from "./Aboutslider";
+// import Aboutsliderr from "./Aboutsliderr";
 
 const Executive = () => {
   return (
@@ -40,6 +42,7 @@ const Executive = () => {
           </div>
         </div>
       </div>
+      {/* <Aboutsliderr /> */}
     </>
   );
 };

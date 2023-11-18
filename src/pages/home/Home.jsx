@@ -1,6 +1,9 @@
 import Header from "./Header";
 import Hero from "./Hero";
 import Mission from "./Mission";
+import Gallery from "./Gallery";
+import Proverbs from "./Proverbs";
+
 import Navbar from "../../components/Navbar.jsx";
 import Preloader from "../../components/Preloader";
 import Footer from "../../components/Footer.jsx";
@@ -25,6 +28,8 @@ const Home = () => {
           <Hero />
           <Header />
           <Mission />
+          <Gallery />
+          <Proverbs />
           <Contactsmall />
           <Footer />
         </>

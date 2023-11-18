@@ -47,6 +47,9 @@
   font-size: 14px;
   font-weight: 400;
 }
+.foot-logo {
+  width: 30%;
+}
 .foot-last {
   background-image: url("../assets/images/lastfooter.svg");
   width: 100%;
@@ -123,6 +126,64 @@ a {
   text-decoration: none;
 }
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .footer1 {
+    flex-direction: column;
+  }
+  .footer1-1,
+  .footer1-2 {
+    width: 100%;
+  }
+  .footer1-2 {
+    border-left: 0;
+    border-right: 0;
+    flex-direction: column;
+  }
+  .footer1-2-1 {
+    border-bottom: 0;
+  }
+  .footer1-2-1,
+  .footer1-2-2 {
+    padding-left: 0;
+  }
+  .footer1-2-1 {
+    height: 100%;
+    width: 100%;
+    border-right: 0;
+  }
+  .footer1-2-2 {
+    height: 100%;
+    width: 100%;
+  }
+  .footer1-1 {
+    padding-left: 0;
+  }
+  .foot-b {
+    height: 44px;
+  }
+  .foot-w {
+    width: 100%;
+  }
+  .foot-socials {
+    margin: 50px auto 0 auto;
+  }
+  input {
+    border: 0;
+    width: 168px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .foot-socials {
+    background-color: rgba(144, 157, 173, 0.15);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+  }
+  ::placeholder {
+    padding-left: 10px;
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .footer1 {
@@ -145,6 +206,10 @@ a {
     height: 100%;
     width: 25%;
     border-right: 1px #553105 solid;
+  }
+  .footer1-2-1,
+  .footer1-2-2 {
+    padding-left: 8px;
   }
   .footer1-2-2 {
     height: 100%;
@@ -182,6 +247,10 @@ a {
   }
   .footer1-2-1 {
     border-bottom: 0;
+  }
+  .footer1-2-1,
+  .footer1-2-2 {
+    padding-left: 10px;
   }
   .footer1-2-1 {
     height: 100%;

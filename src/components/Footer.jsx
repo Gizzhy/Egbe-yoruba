@@ -1,5 +1,7 @@
 import ".././styles/footer.css";
-import logo from ".././assets/images/logo.svg";
+import logo3 from ".././assets/images/isokanfooter.jpeg";
+import logo2 from ".././assets/images/isokan22.jpeg";
+
 import location from ".././assets/icons/location.svg";
 import call from ".././assets/icons/phone.svg";
 import mail from ".././assets/icons/mail.svg";
@@ -16,16 +18,17 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer1">
           <div className="footer1-1">
-            <img src={logo} alt="logo" className="foot-logo" />
+            <img src={logo3} alt="logo" className="foot-logo" />
             <p className="foot-w">
-              We are non-governmental, non-profit and non- political
-              organization based here in Munich. We are community of Nigerian
-              immigrants here in the southern part of this country of which we
-              made Germany as our second home.
+              We are non-governmental, non-profit, non-political, and
+              non-religious organisation to foster Socio-cul-tural development
+              of the Yoruba race in Diaspora. The association aims at producing
+              an atmosphere for Yoruba’s and other interested people to share
+              and discover Yoruba culture
             </p>
             <div className="foot-way">
               <img src={location} alt="location" className="foot-icon" />
-              <p className="foot-oro">Apyc Secretarial Address</p>
+              <p className="foot-oro">Berlin, Germany</p>
             </div>
           </div>
           {/* second section */}
