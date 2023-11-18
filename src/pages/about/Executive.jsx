@@ -30,7 +30,7 @@ const Executive = () => {
             <div className="execu1-3"></div>
           </div>
           {/* next */}
-          <div className="execu1">
+          <div className="execu11">
             <div className="execu1-1"></div>
             <div className="execu1-3"></div>
           </div>
