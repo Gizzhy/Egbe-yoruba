@@ -16,7 +16,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, [2900]);
+    }, [3950]);
   });
   return (
     <>

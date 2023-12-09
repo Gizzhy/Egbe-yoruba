@@ -66,16 +66,20 @@
     animation: changeBackground 12s infinite;
   }
   @keyframes changeBackground {
-    0% {
-      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    0%,
+    100% {
+      background-image: url(".././assets/images/egun.webp"); /* Initial background image */
     }
-    33% {
+    20% {
       background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
     }
-    66% {
-      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    40% {
+      background-image: url(".././assets/images/eyoo.jpeg"); /* Second background image after 3 seconds */
     }
-    100% {
+    60% {
+      background-image: url(".././assets/images/ayoolopon.webp"); /* Second background image after 3 seconds */
+    }
+    80% {
       background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
     }
   }
@@ -109,16 +113,20 @@
     animation: changeBackground 12s infinite;
   }
   @keyframes changeBackground {
-    0% {
-      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    0%,
+    100% {
+      background-image: url(".././assets/images/egun.webp"); /* Initial background image */
     }
-    33% {
+    20% {
       background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
     }
-    66% {
-      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    40% {
+      background-image: url(".././assets/images/eyoo.jpeg"); /* Second background image after 3 seconds */
     }
-    100% {
+    60% {
+      background-image: url(".././assets/images/ayoolopon.webp"); /* Second background image after 3 seconds */
+    }
+    80% {
       background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
     }
   }
@@ -145,19 +153,23 @@
   .hero-main {
     background-size: cover;
     background-repeat: no-repeat;
-    animation: changeBackground 12s infinite;
+    animation: changeBackground 15s infinite;
   }
   @keyframes changeBackground {
-    0% {
-      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    0%,
+    100% {
+      background-image: url(".././assets/images/egun.webp"); /* Initial background image */
     }
-    33% {
+    20% {
       background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
     }
-    66% {
-      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    40% {
+      background-image: url(".././assets/images/eyoo.jpeg"); /* Second background image after 3 seconds */
     }
-    100% {
+    60% {
+      background-image: url(".././assets/images/ayoolopon.webp"); /* Second background image after 3 seconds */
+    }
+    80% {
       background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
     }
   }
@@ -185,16 +197,20 @@
     animation: changeBackground 12s infinite;
   }
   @keyframes changeBackground {
-    0% {
-      background-image: url(".././assets/images/dancing.jpeg"); /* Initial background image */
+    0%,
+    100% {
+      background-image: url(".././assets/images/egun.webp"); /* Initial background image */
     }
-    33% {
+    20% {
       background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
     }
-    66% {
-      background-image: url(".././assets/images/eyo.jpeg"); /* Third background image after 6 seconds */
+    40% {
+      background-image: url(".././assets/images/eyoo.jpeg"); /* Second background image after 3 seconds */
     }
-    100% {
+    60% {
+      background-image: url(".././assets/images/ayoolopon.webp"); /* Second background image after 3 seconds */
+    }
+    80% {
       background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
     }
   }

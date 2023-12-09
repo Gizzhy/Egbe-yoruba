@@ -78,6 +78,10 @@
 .gallery-area {
   height: 500px;
 }
+.jjk {
+  display: flex;
+  flex-direction: row;
+}
 
 @media screen and (min-width: 100px) and (max-width: 299px) {
   .gallery1 {

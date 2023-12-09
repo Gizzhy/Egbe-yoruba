@@ -1,11 +1,24 @@
 import "../../styles/gallery.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import yoruba1 from "../../assets/images/image 3.svg";
 
 // import React, { useState, useEffect } from "react";
 
 const Gallery = () => {
   const [activeButton, setActiveButton] = useState("button1");
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    // Fetch data from your API
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((data) => {
+        // Assuming your API response is an array of users
+        const names = data.map((user) => user.name).join(", ");
+        setName(names);
+      })
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
@@ -79,6 +92,9 @@ const Gallery = () => {
               <div className="gallery-area">Videos</div>
             )}
           </div>
+        </div>
+        <div className="jjk">
+          <h3>{name}</h3>
         </div>
       </div>
     </>

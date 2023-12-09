@@ -10,7 +10,7 @@ const Proverbs = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setActiveDiv((prevActiveDiv) => (prevActiveDiv % 6) + 1);
-    }, 5000); // Change the interval as needed (here, it transitions every 2000 milliseconds)
+    }, 7000); // Change the interval as needed (here, it transitions every 2000 milliseconds)
 
     return () => clearInterval(intervalId); // Cleanup the interval on component unmount
   }, []);
