@@ -8,17 +8,17 @@ const Gallery = () => {
   const [activeButton, setActiveButton] = useState("button1");
   const [name, setName] = useState("");
 
-  useEffect(() => {
-    // Fetch data from your API
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((data) => {
-        // Assuming your API response is an array of users
-        const names = data.map((user) => user.name).join(", ");
-        setName(names);
-      })
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  // useEffect(() => {
+  //   // Fetch data from your API
+  //   fetch("https://jsonplaceholder.typicode.com/users")
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       // Assuming your API response is an array of users
+  //       const names = data.map((user) => user.name).join(", ");
+  //       setName(names);
+  //     })
+  //     .catch((error) => console.error("Error fetching data:", error));
+  // }, []);
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
@@ -93,9 +93,9 @@ const Gallery = () => {
             )}
           </div>
         </div>
-        <div className="jjk">
+        {/* <div className="jjk">
           <h3>{name}</h3>
-        </div>
+        </div> */}
       </div>
     </>
   );
