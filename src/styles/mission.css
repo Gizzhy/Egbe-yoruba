@@ -25,11 +25,14 @@
 }
 .mission-img1 {
   width: 80%;
+  border-radius: 0px 75px 75px 0px;
 }
 .mission1-1 {
+  width: 55%;
   margin-right: auto;
 }
 .mission1-2 {
+  width: 45%;
   margin: auto;
 }
 .mis-w {
@@ -86,6 +89,11 @@
   height: 100%;
 }
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .mission1-1,
+  .mission1-2 {
+    margin: auto;
+    width: 100%;
+  }
   .mission {
     height: 900px;
     flex-direction: column;
@@ -100,7 +108,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .mission-img1 {
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 100%;
   }
   .mission1 {
     width: 100%;
@@ -138,9 +146,17 @@
   .mis-button {
     margin-left: 10px;
   }
+  .mission1-1,
+  .mission1-2 {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 380px) {
+  .mission1-1,
+  .mission1-2 {
+    width: 93%;
+  }
   .mission {
     height: 800px;
     flex-direction: column;
@@ -155,7 +171,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .mission-img1 {
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 100%;
   }
   .mission1 {
     width: 100%;
@@ -196,6 +212,10 @@
 }
 
 @media screen and (min-width: 380px) and (max-width: 500px) {
+  .mission1-1,
+  .mission1-2 {
+    width: 83%;
+  }
   .mission {
     height: 800px;
     flex-direction: column;
@@ -210,12 +230,14 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .mission-img1 {
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 100%;
   }
   .mission1 {
+    text-align: center;
     width: 100%;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
   }
   .mis-w-a1,
   .mis-w-a2,

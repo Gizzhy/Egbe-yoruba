@@ -4,6 +4,7 @@ import yoruba2 from "../../assets/images/image 4.svg";
 import yoruba3 from "../../assets/images/image 6.svg";
 import fabric from "../../assets/images/egyptian-1822015 1.svg";
 import yoruba4 from "../../assets/images/nigerian-woman1.svg";
+import gal15 from "../../assets/gallery/images/gal15.jpg";
 import React, { useState, useEffect } from "react";
 
 const Mission = () => {
@@ -24,7 +25,7 @@ const Mission = () => {
       <div className="mission">
         <div className="mission1">
           <div className="mission1-1">
-            <img src={yoruba4} alt="yoruba lady" className="mission-img1" />
+            <img src={gal15} alt="yoruba lady" className="mission-img1" />
           </div>
           <div className="mission1-2">
             <p className="mis-w">Our Mission And Goal</p>
