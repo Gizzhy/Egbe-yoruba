@@ -35,19 +35,17 @@ const Gallery = () => {
   };
   // zoom
   // zoom
-  const [zoomed, setZoomed] = useState(false);
+  // const [zoomed, setZoomed] = useState(false);
 
-  const toggleZoom = (event) => {
-    // Check if the image is already zoomed
-    if (zoomed) {
-      event.target.style.transform = "scale(1)";
-    } else {
-      event.target.style.transform = "scale(2.5)";
-    }
+  // const toggleZoom = (event) => {
+  //   if (zoomed) {
+  //     event.target.style.transform = "scale(1)";
+  //   } else {
+  //     event.target.style.transform = "scale(2.5)";
+  //   }
 
-    // Toggle the zoom state
-    setZoomed(!zoomed);
-  };
+  //   setZoomed(!zoomed);
+  // };
 
   return (
     <>
@@ -116,7 +114,6 @@ const Gallery = () => {
                       src={gal11}
                       alt="Image 1"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area2">
@@ -124,7 +121,6 @@ const Gallery = () => {
                       src={gal8}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area3">
@@ -132,7 +128,6 @@ const Gallery = () => {
                       src={gal13}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                 </div>
@@ -145,7 +140,6 @@ const Gallery = () => {
                       src={gal5}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area2">
@@ -153,7 +147,6 @@ const Gallery = () => {
                       src={gal6}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area3">
@@ -161,7 +154,6 @@ const Gallery = () => {
                       src={gal10}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                 </div>
@@ -174,7 +166,6 @@ const Gallery = () => {
                       src={gal9}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area2">
@@ -182,7 +173,6 @@ const Gallery = () => {
                       src={gal3}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area3">
@@ -190,7 +180,6 @@ const Gallery = () => {
                       src={gal12}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                 </div>
@@ -208,7 +197,6 @@ const Gallery = () => {
                       src={gal1}
                       alt="Image 1"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area2">
@@ -216,7 +204,6 @@ const Gallery = () => {
                       src={gal2}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area3">
@@ -224,7 +211,6 @@ const Gallery = () => {
                       src={gal3}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                 </div>
@@ -237,7 +223,6 @@ const Gallery = () => {
                       src={gal5}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area2">
@@ -245,7 +230,6 @@ const Gallery = () => {
                       src={gal6}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area3">
@@ -253,7 +237,6 @@ const Gallery = () => {
                       src={gal7}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                 </div>
@@ -266,7 +249,6 @@ const Gallery = () => {
                       src={gal8}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area2">
@@ -274,7 +256,6 @@ const Gallery = () => {
                       src={gal9}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                   <div className="gallery-area3">
@@ -282,7 +263,6 @@ const Gallery = () => {
                       src={gal10}
                       alt="Image 2"
                       className="image-gallery-image"
-                      onClick={toggleZoom}
                     />
                   </div>
                 </div>
