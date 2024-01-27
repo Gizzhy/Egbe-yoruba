@@ -1,5 +1,5 @@
 .hero-main {
-  background-image: url(".././assets/images/hero-img.svg");
+  /* background-image: url(".././assets/gallery/images/gal16.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -7,7 +7,28 @@
   background-position: center center;
   display: flex;
   margin-top: 115px;
+  animation: changeBackground 12s infinite;
 }
+/* tansitions */
+@keyframes changeBackground {
+  0%,
+  100% {
+    background-image: url(".././assets/gallery/images/gal16.jpg"); /* Initial background image */
+  }
+  20% {
+    background-image: url(".././assets/gallery/images/gal17.jpg"); /* Second background image after 3 seconds */
+  }
+  40% {
+    background-image: url(".././assets/gallery/images/gal18.jpg"); /* Second background image after 3 seconds */
+  }
+  60% {
+    background-image: url(".././assets/gallery/images/gal19.jpg"); /* Second background image after 3 seconds */
+  }
+  80% {
+    background-image: url(".././assets/gallery/images/gal20.jpg"); /* Back to the initial background image after 9 seconds */
+  }
+}
+/* tansitions */
 
 .hero2 {
   width: 990px;
@@ -108,26 +129,24 @@
     background-repeat: no-repeat;
   }
   .hero-main {
-    background-size: cover;
-    background-repeat: no-repeat;
     animation: changeBackground 12s infinite;
   }
   @keyframes changeBackground {
     0%,
     100% {
-      background-image: url(".././assets/images/egun.webp"); /* Initial background image */
+      background-image: url(".././assets/gallery/images/gal15.jpg"); /* Initial background image */
     }
     20% {
-      background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/gallery/images/gal5.jpg"); /* Second background image after 3 seconds */
     }
     40% {
-      background-image: url(".././assets/images/eyoo.jpeg"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/gallery/images/gal8.jpg"); /* Second background image after 3 seconds */
     }
     60% {
-      background-image: url(".././assets/images/ayoolopon.webp"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/gallery/images/gal10.jpg"); /* Second background image after 3 seconds */
     }
     80% {
-      background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
+      background-image: url(".././assets/gallery/images/gal11.jpg"); /* Back to the initial background image after 9 seconds */
     }
   }
 }

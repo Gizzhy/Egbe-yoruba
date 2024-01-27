@@ -40,10 +40,10 @@ const Footer = () => {
               <a href="/about">
                 <p className="foot-links">About Us</p>
               </a>
-              <a href="/">
+              <a href="/gallery">
                 <p className="foot-links">Events</p>
               </a>
-              <a href="/">
+              <a href="/gallery">
                 <p className="foot-links">Gallery</p>
               </a>
             </div>

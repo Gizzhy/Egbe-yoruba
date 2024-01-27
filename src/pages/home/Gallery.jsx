@@ -277,7 +277,7 @@ const Gallery = () => {
             )}
           </div>
         </div>
-        <a href="/#">
+        <a href="/gallery">
           <button className="gal-bb">View more from gallery</button>
         </a>
         {/* <div className="jjk">
