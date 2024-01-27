@@ -22,7 +22,7 @@ const Gallerybody = () => {
                 <img
                   key={index}
                   src={imagePath}
-                  alt={`Image ${index + 1}`}
+                  alt={`Image ${imagePath}`}
                   className="pic-real"
                 />
               </div>

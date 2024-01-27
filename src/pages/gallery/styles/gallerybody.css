@@ -78,6 +78,11 @@
     flex-direction: column;
     justify-content: space-evenly;
   }
+  .picoo {
+    width: 330px;
+    height: 125px;
+    margin-bottom: 10px;
+  }
   .pictures-a {
     padding: 5px 0;
   }
@@ -105,6 +110,7 @@
   .picoo {
     width: 330px;
     height: 125px;
+    margin-bottom: 10px;
   }
   .pictures-a {
     padding: 5px 0;
