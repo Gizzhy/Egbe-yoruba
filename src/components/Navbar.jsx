@@ -112,8 +112,7 @@ const Navbar = () => {
         <div className={`mobile-nav ${isMobileNavVisible ? "show" : ""}`}>
           <a href="/">HOME</a>
           <a href="/about">ABOUT</a>
-          <a href="/#">EVENTS</a>
-          <a href="/#">GALLERY</a>
+          <a href="/gallery">EVENTS & GALLERY</a>
         </div>
       </nav>
     </>

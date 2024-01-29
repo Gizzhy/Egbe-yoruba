@@ -56,6 +56,9 @@
 }
 
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .pic1 {
+    font-size: 14px;
+  }
   .pic-first {
     display: flex;
     flex-direction: column;
@@ -68,7 +71,7 @@
 }
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .pic1 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .ab-2g {
     margin-left: 10px;

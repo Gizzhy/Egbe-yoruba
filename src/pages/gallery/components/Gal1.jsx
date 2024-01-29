@@ -1,3 +1,4 @@
+// images
 import gal31 from "../assets/2022/31gal2022.jpg";
 import gal6 from "../assets/2022/6gal2022.jpg";
 import gal4 from "../assets/2022/4gal2022.jpg";
@@ -10,6 +11,11 @@ import gal11 from "../assets/2022/11gal2022.jpg";
 import gal12 from "../assets/2022/12gal2022.jpg";
 import gal32 from "../assets/2022/32gal2022.jpg";
 import gal33 from "../assets/2022/33gal2022.jpg";
+// images
+
+// component
+import Gal1sub from "./Gal1sub";
+// component
 
 // styles
 import "./gal1.css";
@@ -18,6 +24,8 @@ import "./gal1.css";
 const Gal1 = () => {
   return (
     <>
+      <Gal1sub />
+
       <div className="pic-first">
         <div className="picoo">
           <img src={gal31} alt="germany2022" className="pic-real" />

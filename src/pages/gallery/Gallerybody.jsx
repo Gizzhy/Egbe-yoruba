@@ -34,6 +34,11 @@ const Gallerybody = () => {
           </div>
           <p className="pic1">Nigeria - Germany Cultural Carnival 2023</p>
           <Gal2 />
+          <p className="pic1">
+            EIOG Hosted by Assosiation of Yoruba Progressive Community Bayern
+            e.V - Munich
+          </p>
+          <Gal3 />
         </div>
       </div>
     </>
