@@ -1,6 +1,9 @@
 import "./styles/gallerybody.css";
 import gong2 from "../../assets/images/gong2.svg";
-import imageArray from "./imageArray";
+// import imageArray from "./imageArray";
+import Gal1 from "./components/Gal1";
+import Gal2 from "./components/Gal2";
+import Gal3 from "./components/Gal3";
 
 const Gallerybody = () => {
   return (
@@ -16,8 +19,9 @@ const Gallerybody = () => {
         </div>
         <div className="pictures-a">
           <p className="pic1">Nigeria - Germany Cultural Carnival 2022</p>
-          <div className="pic-first">
-            {imageArray.map((imagePath, index) => (
+          <div className="pichm">
+            <Gal1 />
+            {/* {imageArray.map((imagePath, index) => (
               <div className="picoo">
                 <img
                   key={index}
@@ -26,8 +30,10 @@ const Gallerybody = () => {
                   className="pic-real"
                 />
               </div>
-            ))}
+            ))} */}
           </div>
+          <p className="pic1">Nigeria - Germany Cultural Carnival 2023</p>
+          <Gal2 />
         </div>
       </div>
     </>
