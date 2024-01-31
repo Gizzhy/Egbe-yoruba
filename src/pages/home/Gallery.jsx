@@ -1,5 +1,5 @@
 import "../../styles/gallery.css";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import gal1 from "../../assets/gallery/images/gal1.jpg";
 import gal2 from "../../assets/gallery/images/gal2.jpg";
 import gal3 from "../../assets/gallery/images/gal3.jpg";
@@ -12,6 +12,15 @@ import gal10 from "../../assets/gallery/images/gal10.jpg";
 import gal11 from "../../assets/gallery/images/gal11.jpg";
 import gal12 from "../../assets/gallery/images/gal12.jpg";
 import gal13 from "../../assets/gallery/images/gal13.jpg";
+import gal1vid from "../../assets/gallery/videos/gal1vid2022.mp4";
+import gal2vid from "../../assets/gallery/videos/gal2vid2022.mp4";
+import gal3vid from "../../assets/gallery/videos/gal3vid2022.mp4";
+import gal4vid from "../../assets/gallery/videos/gal4vid2022.mp4";
+import gal5vid from "../../assets/gallery/videos/gal5vid2022.mp4";
+import gal6vid from "../../assets/gallery/videos/gal6vid2022.mp4";
+import gal7vid from "../../assets/gallery/videos/gal7vid2022.mp4";
+import gal8vid from "../../assets/gallery/videos/gal8vid2022.mp4";
+
 // import gal15 from "../../assets/gallery/images/gal15.jpg";
 
 const Gallery = () => {
@@ -29,6 +38,17 @@ const Gallery = () => {
   //     })
   //     .catch((error) => console.error("Error fetching data:", error));
   // }, []);
+  const videoRef = useRef(null);
+
+  const playPause = () => {
+    const video = videoRef.current;
+
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  };
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
@@ -123,12 +143,17 @@ const Gallery = () => {
                       className="image-gallery-image"
                     />
                   </div>
-                  <div className="gallery-area3">
-                    <img
-                      src={gal13}
-                      alt="Image 2"
-                      className="image-gallery-image"
-                    />
+                  <div
+                    className="gallery-area3"
+                    onClick={playPause}
+                    style={{
+                      margin: "auto",
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal7vid} type="video/mp4" />
+                    </video>
                   </div>
                 </div>
                 {/* next */}
@@ -168,12 +193,16 @@ const Gallery = () => {
                       className="image-gallery-image"
                     />
                   </div>
-                  <div className="gallery-area2">
-                    <img
-                      src={gal3}
-                      alt="Image 2"
-                      className="image-gallery-image"
-                    />
+                  <div
+                    className="gallery-area1v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal6vid} type="video/mp4" />
+                    </video>
                   </div>
                   <div className="gallery-area3">
                     <img
@@ -273,7 +302,108 @@ const Gallery = () => {
               </div>
             )}
             {activeButton === "button3" && (
-              <div className="gallery-area">Videos</div>
+              <div className="gallery-area">
+                <div className="gallery-area0">
+                  <div
+                    className="gallery-area1v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal1vid} type="video/mp4" />
+                    </video>
+                  </div>
+                  <div
+                    className="gallery-area2v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal2vid} type="video/mp4" />
+                    </video>
+                  </div>
+                  <div
+                    className="gallery-area3v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal3vid} type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+                {/* next */}
+                {/* next */}
+                {/* next */}
+                <div className="gallery-area0">
+                  <div
+                    className="gallery-area1v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal4vid} type="video/mp4" />
+                    </video>
+                  </div>
+                  <div
+                    className="gallery-area2v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal5vid} type="video/mp4" />
+                    </video>
+                  </div>
+                  <div
+                    className="gallery-area3v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal6vid} type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+                {/* next */}
+                {/* next */}
+                {/* next */}
+                <div className="gallery-area0">
+                  <div
+                    className="gallery-area1v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" controls>
+                      <source src={gal7vid} type="video/mp4" />
+                    </video>
+                  </div>
+                  <div
+                    className="gallery-area2v"
+                    onClick={playPause}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    <video ref={videoRef} width="100%" height="100%" controls>
+                      <source src={gal8vid} type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
             )}
           </div>
         </div>
