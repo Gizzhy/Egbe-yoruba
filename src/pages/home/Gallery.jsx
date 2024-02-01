@@ -143,17 +143,12 @@ const Gallery = () => {
                       className="image-gallery-image"
                     />
                   </div>
-                  <div
-                    className="gallery-area3"
-                    onClick={playPause}
-                    style={{
-                      margin: "auto",
-                      cursor: "pointer",
-                    }}
-                  >
-                    <video ref={videoRef} width="100%" controls>
-                      <source src={gal7vid} type="video/mp4" />
-                    </video>
+                  <div className="gallery-area2">
+                    <img
+                      src={gal13}
+                      alt="Image 2"
+                      className="image-gallery-image"
+                    />
                   </div>
                 </div>
                 {/* next */}
@@ -316,7 +311,7 @@ const Gallery = () => {
                     </video>
                   </div>
                   <div
-                    className="gallery-area2v"
+                    className="gallery-area1v"
                     onClick={playPause}
                     style={{
                       cursor: "pointer",
@@ -354,7 +349,7 @@ const Gallery = () => {
                     </video>
                   </div>
                   <div
-                    className="gallery-area2v"
+                    className="gallery-area1v"
                     onClick={playPause}
                     style={{
                       cursor: "pointer",
@@ -392,7 +387,7 @@ const Gallery = () => {
                     </video>
                   </div>
                   <div
-                    className="gallery-area2v"
+                    className="gallery-area1v"
                     onClick={playPause}
                     style={{
                       cursor: "pointer",
