@@ -32,7 +32,7 @@ const Header = () => {
             <div className="mem-a">
               {index === 0 && (
                 <>
-                  <p className="mem-oro">300+</p>
+                  <p className="mem-oro">500+</p>
                   <p className="mem-oro2-1">Registered Members</p>
                 </>
               )}
