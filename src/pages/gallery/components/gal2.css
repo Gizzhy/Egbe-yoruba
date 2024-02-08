@@ -1,0 +1,9 @@
+.pic-first {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.picoo {
+  width: 310px;
+  height: 205px;
+}
