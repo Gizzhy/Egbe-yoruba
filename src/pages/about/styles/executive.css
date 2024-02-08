@@ -87,6 +87,32 @@
   transition: width 0.5s ease, height 0.5s ease;
   cursor: pointer;
 }
+.execuimg {
+  text-align: center;
+  padding: 10px 0;
+}
+.execuimgg {
+  width: 42%;
+  border-radius: 10px;
+}
+.execuimgg2 {
+  width: 38%;
+  border-radius: 10px;
+}
+.execu-oro {
+  text-align: center;
+  color: #546881;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Rugral";
+}
+.execu-oro2 {
+  text-align: center;
+  color: #3b97b6;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
 
 @media screen and (min-width: 100px) and (max-width: 299px) {
 }
@@ -159,6 +185,10 @@
   .execu1-2:hover {
     width: 340px;
     height: 270px;
+  }
+  .execuimgg2 {
+    width: 38%;
+    border-radius: 10px;
   }
 }
 @media screen and (min-width: 501px) and (max-width: 850px) {

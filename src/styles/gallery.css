@@ -584,6 +584,34 @@
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1150px) {
+  .gal-bb {
+    width: 250px;
+    height: 56px;
+    background-color: #f28c0f;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-top: 25px;
+    margin-left: 28px;
+    cursor: pointer;
+  }
+  .gallery-area1,
+  .gallery-area2,
+  .gallery-area3 {
+    width: 260px;
+    height: 150px;
+    margin: 15px 0;
+  }
+  .gallery-area1v,
+  .gallery-area2v,
+  .gallery-area3v {
+    width: 250px;
+    height: 150px;
+    margin: 15px 0;
+  }
 }
 
 /* ImageGallery.css */
