@@ -44,6 +44,9 @@
 }
 
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .hero-mainn {
+    height: 400px;
+  }
   .hero22 {
     width: 220px;
     margin: auto;
@@ -52,6 +55,16 @@
   }
   .hero-ww {
     font-size: 18px;
+  }
+  .hero-22 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .arrr {
+    margin-top: -15px;
+  }
+  .arrr-img {
+    width: 65%;
   }
 }
 
@@ -108,8 +121,12 @@
     margin: auto;
     height: 500px;
   }
+  .hero-22 {
+    font-size: 55px;
+    letter-spacing: 8px;
+  }
   .hero-ww {
-    font-size: 27px;
+    font-size: 30px;
   }
   .hero-w2 {
     width: 100%;
@@ -118,5 +135,8 @@
   }
   .hero-w3 {
     font-size: 21px;
+  }
+  .arrr {
+    margin-top: -15px;
   }
 }

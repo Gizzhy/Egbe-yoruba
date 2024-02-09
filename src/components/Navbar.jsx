@@ -79,7 +79,7 @@ const Navbar = () => {
             data-aos-duration="800"
             data-aos-delay="1200"
           >
-            <a href="/gallery">Events & Gallery</a>
+            <a href="/gallery">Gallery</a>
           </li>
 
           {/* <li

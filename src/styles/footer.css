@@ -185,6 +185,21 @@ a {
     font-size: 12px;
   }
 }
+@media screen and (min-width: 300px) and (max-width: 350px) {
+  input {
+    border: 0;
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .footer1-2-1,
+  .footer1-2-2 {
+    padding-left: 4px !important;
+  }
+  .foot-icon {
+    margin-right: 2px;
+  }
+}
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .footer1 {
     flex-direction: column;

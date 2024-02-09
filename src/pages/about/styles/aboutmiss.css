@@ -57,6 +57,47 @@
 }
 
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .about-miss1 {
+    margin-left: 0;
+    border-bottom: 1px #d9d9d9 solid;
+  }
+  .our-goal1 {
+    font-size: 20px;
+  }
+  .our-goal2 {
+    font-size: 16px;
+  }
+  .our-goal2,
+  .our-goal1 {
+    text-align: center;
+  }
+  .amout-miss1 {
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .mis-w-aaa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .mis-w-a1a,
+  .mis-w-a2a,
+  .mis-w-a3a {
+    width: 250px;
+    height: 65px;
+
+    margin: auto;
+  }
+  .mis-w-a1-2a {
+    width: 100%;
+  }
+  .mis-w-a1-2a {
+    text-align: justify;
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 380px) {
   .about-miss1 {
@@ -85,7 +126,7 @@
   .mis-w-a1a,
   .mis-w-a2a,
   .mis-w-a3a {
-    width: 370px;
+    width: 300px;
     margin: auto;
   }
   .mis-w-a1-2a {
@@ -93,6 +134,7 @@
   }
   .mis-w-a1-2a {
     text-align: justify;
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 381px) and (max-width: 500px) {
@@ -133,5 +175,46 @@
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 850px) {
+@media screen and (min-width: 501px) and (max-width: 650px) {
+  .about-miss1 {
+    margin-left: 0;
+    border-bottom: 1px #d9d9d9 solid;
+  }
+  .our-goal1 {
+    font-size: 25px;
+  }
+  .our-goal2,
+  .our-goal1 {
+    text-align: center;
+  }
+  .amout-miss1 {
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .mis-w-aaa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .mis-w-a1a,
+  .mis-w-a2a,
+  .mis-w-a3a {
+    width: 430px;
+    margin: auto;
+  }
+  .mis-w-a1-2a {
+    width: 100%;
+  }
+  .mis-w-a1-2a {
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 850px) {
+  .about-miss1,
+  .mis-w-aaa {
+    margin-left: 60px;
+  }
 }

@@ -1,6 +1,6 @@
 import ".././styles/footer.css";
 import logo3 from ".././assets/images/isokanfooter.jpeg";
-import logo2 from ".././assets/images/isokan22.jpeg";
+// import logo2 from ".././assets/images/isokan22.jpeg";
 
 import location from ".././assets/icons/location.svg";
 import call from ".././assets/icons/phone.svg";
