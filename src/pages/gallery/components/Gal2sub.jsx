@@ -20,6 +20,18 @@ import gal26 from "../assets/2023/26gal2023.jpg";
 import gal27 from "../assets/2023/27gal2023.jpg";
 import gal28 from "../assets/2023/28gal2023.jpg";
 import gal29 from "../assets/2023/29gal2023.jpg";
+import gal30 from "../assets/2023/30gal2023.jpg";
+import gal31 from "../assets/2023/31gal2023.jpg";
+import gal32 from "../assets/2023/32gal2023.jpg";
+import gal33 from "../assets/2023/33gal2023.jpg";
+import gal34 from "../assets/2023/34gal2023.jpg";
+import gal35 from "../assets/2023/35gal2023.jpg";
+import gal36 from "../assets/2023/36gal2023.jpg";
+import gal37 from "../assets/2023/37gal2023.jpg";
+import gal38 from "../assets/2023/38gal2023.jpg";
+import gal39 from "../assets/2023/39gal2023.jpg";
+import gal40 from "../assets/2023/40gal2023.jpg";
+
 // images
 
 // import InfiniteCarousel from "react-leaf-carousel";
@@ -132,6 +144,39 @@ const Gal1sub = () => {
         </div>
         <div className="picoo">
           <img src={gal29} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal30} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal31} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal32} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal33} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal34} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal35} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal36} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal37} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal38} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal39} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picoo">
+          <img src={gal40} alt="germany2022" className="pic-real" />
         </div>
       </Carousel>
     </>
