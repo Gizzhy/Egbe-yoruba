@@ -11,10 +11,17 @@ import eiog17 from "../assets/eiog/17eiog.jpg";
 import eiog18 from "../assets/eiog/18eiog.jpg";
 import eiog19 from "../assets/eiog/19eiog.jpg";
 import eiog20 from "../assets/eiog/20eiog.jpg";
-// import eiog21 from "../assets/eiog/21eiog.jpg";
-// import eiog22 from "../assets/eiog/22eiog.jpg";
-// import eiog23 from "../assets/eiog/23eiog.jpg";
-// import eiog24 from "../assets/eiog/24eiog.jpg";
+import eiog21 from "../assets/eiog/21eiog.jpg";
+import eiog22 from "../assets/eiog/22eiog.jpg";
+import eiog23 from "../assets/eiog/23eiog.jpg";
+import eiog24 from "../assets/eiog/24eiog.jpg";
+import eiog25 from "../assets/eiog/25eiog.jpg";
+import eiog26 from "../assets/eiog/26eiog.jpg";
+import eiog27 from "../assets/eiog/27eiog.jpg";
+import eiog28 from "../assets/eiog/28eiog.jpg";
+import eiog29 from "../assets/eiog/29eiog.jpg";
+import eiog30 from "../assets/eiog/30eiog.jpg";
+
 // images
 
 // import InfiniteCarousel from "react-leaf-carousel";
@@ -102,31 +109,34 @@ const Gal3sub = () => {
           <img src={eiog20} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog21} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog22} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog23} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog24} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog25} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog26} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog27} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog28} alt="germany2022" className="pic-real" />
         </div>
         <div className="picooo">
-          <img src={eiog13} alt="germany2022" className="pic-real" />
+          <img src={eiog29} alt="germany2022" className="pic-real" />
+        </div>
+        <div className="picooo">
+          <img src={eiog30} alt="germany2022" className="pic-real" />
         </div>
       </Carousel>
     </>
