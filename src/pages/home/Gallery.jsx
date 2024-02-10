@@ -2,7 +2,7 @@ import "../../styles/gallery.css";
 import React, { useEffect, useState, useRef } from "react";
 import gal1 from "../../assets/gallery/images/gal1.jpg";
 import gal2 from "../../assets/gallery/images/gal2.jpg";
-import gal3 from "../../assets/gallery/images/gal3.jpg";
+// import gal3 from "../../assets/gallery/images/gal3.jpg";
 import gal5 from "../../assets/gallery/images/gal5.jpg";
 import gal6 from "../../assets/gallery/images/gal6.jpg";
 import gal7 from "../../assets/gallery/images/gal7.jpg";
@@ -11,7 +11,11 @@ import gal9 from "../../assets/gallery/images/gal9.jpg";
 import gal10 from "../../assets/gallery/images/gal10.jpg";
 import gal11 from "../../assets/gallery/images/gal11.jpg";
 import gal12 from "../../assets/gallery/images/gal12.jpg";
-import gal13 from "../../assets/gallery/images/gal13.jpg";
+// import gal13 from "../../assets/gallery/images/gal13.jpg";
+import eiog31 from "../../assets/gallery/images/31eiog.jpg";
+import eiog32 from "../../assets/gallery/images/32eiog.jpg";
+import eiog33 from "../../assets/gallery/images/34eiog.jpg";
+// import eiog34 from "../../assets/gallery/images/34eiog.jpg";
 import gal1vid from "../../assets/gallery/videos/gal1vid2022.mp4";
 import gal2vid from "../../assets/gallery/videos/gal2vid2022.mp4";
 import gal3vid from "../../assets/gallery/videos/gal3vid2022.mp4";
@@ -145,7 +149,7 @@ const Gallery = () => {
                   </div>
                   <div className="gallery-area2">
                     <img
-                      src={gal13}
+                      src={eiog31}
                       alt="Image 2"
                       className="image-gallery-image"
                     />
@@ -183,7 +187,7 @@ const Gallery = () => {
                 <div className="gallery-area0">
                   <div className="gallery-area1">
                     <img
-                      src={gal9}
+                      src={eiog32}
                       alt="Image 2"
                       className="image-gallery-image"
                     />
@@ -232,7 +236,7 @@ const Gallery = () => {
                   </div>
                   <div className="gallery-area3">
                     <img
-                      src={gal3}
+                      src={eiog33}
                       alt="Image 2"
                       className="image-gallery-image"
                     />
@@ -284,7 +288,7 @@ const Gallery = () => {
                   </div>
                   <div className="gallery-area3">
                     <img
-                      src={gal10}
+                      src={eiog33}
                       alt="Image 2"
                       className="image-gallery-image"
                     />
