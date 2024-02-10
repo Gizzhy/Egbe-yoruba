@@ -26,3 +26,28 @@
     width: calc(50% - 10px);
   }
 }
+@media screen and (min-width: 851px) and (max-width: 950px) {
+  .pic-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .picoo {
+    width: calc(50% - 10px);
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  .pic-first {
+    display: flex;
+
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .picoo {
+    width: 25%;
+  }
+}
