@@ -125,10 +125,21 @@
     height: 8700px;
   }
 }
-@media screen and (min-width: 501px) and (max-width: 850px) {
+@media screen and (min-width: 501px) and (max-width: 650px) {
   .pic-first {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 850px) {
+  /* .pic-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  } */
+  .pictures-a {
+    padding: 5px 0;
+    height: 4900px;
   }
 }

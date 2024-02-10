@@ -94,88 +94,88 @@ const Gal1sub = () => {
         slidesToSlide={2}
         swipeable
       >
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal13} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal14} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal15} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal16} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal17} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal18} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal19} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal20} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal21} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal22} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal23} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal24} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal25} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal26} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal27} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal28} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal29} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal30} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal31} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal32} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal33} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal34} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal35} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal36} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal37} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal38} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal39} alt="germany2022" className="pic-real" />
         </div>
-        <div className="picoo">
+        <div className="picooo">
           <img src={gal40} alt="germany2022" className="pic-real" />
         </div>
       </Carousel>

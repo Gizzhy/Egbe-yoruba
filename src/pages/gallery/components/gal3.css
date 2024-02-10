@@ -13,3 +13,16 @@
     height: 130px;
   }
 }
+
+@media screen and (min-width: 651px) and (max-width: 850px) {
+  .pic-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .picoo {
+    width: calc(50% - 10px);
+  }
+}
