@@ -6,7 +6,7 @@ const Contacthero = () => {
     <>
       <div className="hero-mainnc">
         <div className="hero22c">
-          <div className="">
+          <div className="hero22cc">
             <p className="hero-wwc">CONTACT</p>
             <div className="arrrc">
               <img src={arrow2} alt="about" className="arrr-img" />
