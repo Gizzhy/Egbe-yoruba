@@ -126,10 +126,34 @@
   }
 }
 @media screen and (min-width: 501px) and (max-width: 650px) {
+  .gal-main {
+    padding: 10px;
+  }
+  .pic1 {
+    font-size: 18px;
+  }
+  .ab-2g {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Rugral";
+    letter-spacing: 5px;
+  }
   .pic-first {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+  }
+  .picoo {
+    width: 350px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  .pictures-a {
+    padding: 5px 0;
+    height: 8700px;
   }
 }
 @media screen and (min-width: 651px) and (max-width: 850px) {
