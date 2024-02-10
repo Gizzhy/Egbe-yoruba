@@ -88,7 +88,40 @@
     height: 6000px;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 380px) {
+@media screen and (min-width: 300px) and (max-width: 340px) {
+  .gal-main {
+    padding: 10px;
+  }
+
+  .ab-2g {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Rugral";
+    letter-spacing: 5px;
+  }
+  .pic-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .picoo {
+    width: 280px !important;
+    height: 150px !important;
+    margin-bottom: 10px;
+  }
+
+  .pic1 {
+    font-size: 16px;
+  }
+
+  .pictures-a {
+    padding: 5px 0;
+    height: 6700px;
+  }
+}
+@media screen and (min-width: 341px) and (max-width: 380px) {
   .pic1 {
     font-size: 16px;
   }

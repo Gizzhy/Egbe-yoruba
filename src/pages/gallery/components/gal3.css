@@ -26,7 +26,6 @@
     margin: 10px 0;
   }
 }
-
 @media screen and (min-width: 651px) and (max-width: 850px) {
   .pic-first {
     display: flex;
@@ -51,7 +50,6 @@
     width: calc(50% - 10px);
   }
 }
-
 @media screen and (min-width: 951px) and (max-width: 1200px) {
   .pic-first {
     display: flex;

@@ -7,3 +7,10 @@
   width: 310px;
   height: 205px;
 }
+/* @media screen and (min-width: 300px) and (max-width: 340px) {
+  .picoo {
+    width: 250px !important;
+    height: 110px !important;
+    margin-bottom: 10px;
+  }
+} */
