@@ -8,9 +8,22 @@
   height: 205px;
 }
 @media screen and (min-width: 100px) and (max-width: 299px) {
+  .pic-first {
+    margin: 10px 0;
+  }
   .picoo {
     width: 210px;
     height: 130px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .pic-first {
+    margin: 10px 0;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 650px) {
+  .pic-first {
+    margin: 10px 0;
   }
 }
 
@@ -42,7 +55,19 @@
 @media screen and (min-width: 951px) and (max-width: 1200px) {
   .pic-first {
     display: flex;
-
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .picoo {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1290px) {
+  .pic-first {
+    display: flex;
+    margin-top: 10px;
     justify-content: space-evenly;
     margin-bottom: 10px;
     gap: 10px;
