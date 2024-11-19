@@ -76,5 +76,12 @@
 }
 .iconnn {
   font-size: 20px;
-
+}
+@media screen and (min-width: 120px) and (max-width: 500px) {
+  .iconnn {
+    font-size: 18px;
+  }
+  .carousel-btn {
+    padding: 10px;
+  }
 }
