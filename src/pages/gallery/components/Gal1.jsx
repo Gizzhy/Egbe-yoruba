@@ -74,6 +74,7 @@ const Gal1 = () => {
         <div className="picoo">
           <img src={gal33} alt="germany2022" className="pic-real" />
         </div>
+        
       </div>
     </>
   );

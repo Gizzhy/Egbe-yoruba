@@ -7,10 +7,74 @@
   width: 310px;
   height: 205px;
 }
-/* @media screen and (min-width: 300px) and (max-width: 340px) {
-  .picoo {
-    width: 250px !important;
-    height: 110px !important;
-    margin-bottom: 10px;
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(calc(-100% * var(--current-index, 0)));
+
+    .carousel-image {
+      width: 100%;
+      flex-shrink: 0;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+
+      &.active {
+        opacity: 1;
+      }
+    }
   }
-} */
+
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #f28c0f;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 10;
+
+    &.prev {
+      left: 10px;
+    }
+
+    &.next {
+      right: 10px;
+    }
+  }
+
+  .carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      background: rgb(183, 182, 182);
+      border-radius: 50%;
+      cursor: pointer;
+
+      &.active {
+        background: #f28c0f;
+      }
+    }
+  }
+}
+.iconnn {
+  font-size: 20px;
+
+}
