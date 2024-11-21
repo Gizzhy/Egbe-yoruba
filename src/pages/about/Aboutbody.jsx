@@ -25,24 +25,26 @@ const Abouthero = () => {
         </div>
 
         <p className="ab-3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          nisi nulla, rutrum non lorem a, bibendum venenatis libero. Vivamus
-          mollis eleifend diam, id elementum eros egestas sed. Phasellus at
-          elementum turpis. Etiam at erat fermentum, vehicula neque tempor,
-          accumsan enim. Nulla sit amet risus at purus lobortis auctor vel eget
-          nisi. Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Aenean libero sapien, lobortis quis placerat
-          varius, rutrum tincidunt risus. Sed ullamcorper tellus sit amet neque
-          hendrerit imperdiet.
+          It is our pleasure to introduce you to Egbe Isokan Omo Yoruba Germany
+          e.V., (EIOYG), a progressive group formed solely to embrace Yoruba
+          communities in Germany and envision the heroic accomplishments of our
+          forefathers. Registered on November 7, 2009, in Berlin, as the EIOYG
+          focuses on protecting and popularizing the Yoruba culture, the
+          advancement of socio-cultural activities, and strengthening the bonds
+          between its members. As a people we remain inspired by the values
+          passed down to us by Oduduwa, our great ancestor from Ife Nigeria,
+          student history, culture and identity of the Yoruba people while being
+          open to intercultural relations.
         </p>
         <p className="ab-3">
-          Curabitur vitae felis id dui tempor semper. Aliquam sit amet elit non
-          enim fermentum tempor. Maecenas dapibus dignissim libero, sit amet
-          interdum nisi convallis vel. Integer erat lacus, dignissim quis augue
-          eget, auctor egestas erat. Mauris eu nulla massa. Etiam a semper
-          velit. Mauris consequat sapien id mi pretium, at tristique arcu
-          gravida. Ut cursus tellus vitae lorem semper, eu euismod nisl mollis.
-          Nulla malesuada eros eget ex dictum eleifend.
+          We are a non governmental/non profit/non political and non religious
+          organization thus very focused to support the cultural orientation of
+          Yoruba descendants in Germany and to foster unity among them
+          particularly as well as bridge the gap between our people and other
+          ethnic groups. Our mission is to foster cultural exchange and
+          education so that the Yoruba culture could live on and the Yorubas and
+          other cultures could come together for cultural, educational and
+          charitable events for the programs of the society.
         </p>
         <div className="abb-a">
           <div className="gonggg">
@@ -50,31 +52,15 @@ const Abouthero = () => {
           </div>
         </div>
         <p className="ab-3">
-          Praesent sed enim at quam accumsan dapibus. Proin pretium neque urna,
-          id porttitor ligula imperdiet ut. Morbi at fermentum diam. Nullam elit
-          erat, hendrerit vitae luctus sed, bibendum ac eros. Etiam semper erat
-          ac elit pulvinar, convallis convallis mauris tincidunt. Nunc dui
-          augue, pharetra eget imperdiet eu, consectetur a neque. Nam pretium
-          viverra augue non vulputate. Maecenas sed tempor neque, nec viverra
-          lectus. Mauris quis massa a enim fermentum dictum maximus a odio.
-          Proin eu diam sit amet magna sagittis consequat. Aenean volutpat enim
-          in ex dictum mattis. Pellentesque non vestibulum dolor, quis dignissim
-          nisi. Nunc diam nunc, laoreet eget nulla vitae, porttitor viverra
-          lorem. Duis id semper felis, at suscipit massa. Phasellus ut nibh
-          accumsan, vestibulum leo id, aliquet erat. Pellentesque euismod
-          hendrerit dui, at bibendum arcu mattis eu. Vestibulum elementum, nibh
-          bibendum hendrerit tempus, nisi nunc accumsan libero, vitae ultrices
-          sapien est ac erat. Vivamus sit amet tristique augue, lobortis viverra
-          dolor. Praesent nec metus at turpis viverra tristique eu eu metus.
-          Vestibulum porttitor tincidunt condimentum. Nam quis suscipit justo.
-          Integer auctor vel nibh eu accumsan.
+          Egbe Isokan Omo Yoruba Germany e.V.— as the name implies — our
+          culture, our identity, and the connection of our people to their home.
         </p>
         <div className="abb-a">
           <div className="gonggg2">
             <img src={gong3} alt="gong" className="gongs-imgg" />
           </div>
         </div>
-        <p className="ab-3">
+        {/* <p className="ab-3">
           Vestibulum hendrerit vehicula aliquet. Mauris volutpat tortor eget
           lorem blandit, a bibendum tortor tristique. Suspendisse sed neque sed
           enim pellentesque suscipit. Praesent mauris metus, facilisis et metus
@@ -82,7 +68,7 @@ const Abouthero = () => {
           purus in dignissim finibus. Fusce lacinia nunc quis urna fringilla
           cursus. Aliquam bibendum lacus in vulputate sodales. Proin euismod
           mauris et mi eleifend egestas.
-        </p>
+        </p> */}
       </div>
     </>
   );

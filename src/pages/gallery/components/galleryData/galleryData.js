@@ -72,6 +72,42 @@ import gal91 from "../../assets/eiog/27eiog.jpg";
 import gal92 from "../../assets/eiog/28eiog.jpg";
 import gal93 from "../../assets/eiog/29eiog.jpg";
 import gal94 from "../../assets/eiog/30eiog.jpg";
+// next
+// next
+// next
+// next
+// next
+import gal100 from "../../assets/2024/2024eioyg1.jpeg";
+import gal101 from "../../assets/2024/2024eioyg2.jpeg";
+import gal102 from "../../assets/2024/2024eioyg3.jpeg";
+import gal103 from "../../assets/2024/2024eioyg4.jpeg";
+import gal104 from "../../assets/2024/2024eioyg5.jpeg";
+import gal105 from "../../assets/2024/2024eioyg6.jpeg";
+import gal106 from "../../assets/2024/2024eioyg7.jpeg";
+import gal107 from "../../assets/2024/2024eioyg8.jpeg";
+import gal108 from "../../assets/2024/2024eioyg38.jpeg";
+import gal109 from "../../assets/2024/2024eioyg9.jpeg";
+import gal110 from "../../assets/2024/2024eioyg10.jpeg";
+import gal111 from "../../assets/2024/2024eioyg11.jpeg";
+import gal112 from "../../assets/2024/2024eioyg12.jpeg";
+import gal113 from "../../assets/2024/2024eioyg13.jpeg";
+import gal114 from "../../assets/2024/2024eioyg14.jpeg";
+import gal115 from "../../assets/2024/2024eioyg15.jpeg";
+import gal116 from "../../assets/2024/2024eioyg16.jpeg";
+import gal117 from "../../assets/2024/2024eioyg17.jpeg";
+import gal118 from "../../assets/2024/2024eioyg18.jpeg";
+import gal119 from "../../assets/2024/2024eioyg39.jpeg";
+import gal120 from "../../assets/2024/2024eioyg40.jpeg";
+import gal121 from "../../assets/2024/2024eioyg41.jpeg";
+import gal122 from "../../assets/2024/2024eioyg42.jpeg";
+import gal123 from "../../assets/2024/2024eioyg43.jpeg";
+import gal124 from "../../assets/2024/2024eioyg44.jpeg";
+import gal125 from "../../assets/2024/2024eioyg45.jpeg";
+import gal126 from "../../assets/2024/2024eioyg46.jpeg";
+import gal127 from "../../assets/2024/2024eioyg47.jpeg";
+import gal128 from "../../assets/2024/2024eioyg48.jpeg";
+import gal129 from "../../assets/2024/2024eioyg49.jpeg";
+import gal130 from "../../assets/2024/2024eioyg50.jpeg";
 
 const galleryImage = {
   galleryEventOne: [
@@ -329,6 +365,132 @@ const galleryImage = {
     },
     {
       gal: gal95,
+      alt: "EIOYG image",
+    },
+  ],
+  galleryEventFour: [
+    {
+      gal: gal100,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal101,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal102,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal103,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal104,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal105,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal106,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal107,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal108,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal109,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal110,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal111,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal112,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal113,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal114,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal115,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal116,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal117,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal118,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal119,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal120,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal121,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal122,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal123,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal124,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal125,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal126,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal127,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal128,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal129,
+      alt: "EIOYG image",
+    },
+    {
+      gal: gal130,
       alt: "EIOYG image",
     },
   ],

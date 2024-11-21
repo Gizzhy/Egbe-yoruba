@@ -6,6 +6,8 @@ import ghazal from "./images/ghazal.jpg";
 import kayode from "./images/kayode.jpg";
 import olufemi from "./images/olufemi.jpg";
 import lekan from "./images/lekan.jpg";
+import adetula from "./images/adetula.jpeg";
+import bashir from "./images/bashir.jpg";
 
 // import Aboutslider from "./Aboutslider";
 // import Aboutsliderr from "./Aboutsliderr";
@@ -48,9 +50,9 @@ const Executive = () => {
             </div>
             <div className="execu1-3">
               <div className="execuimg">
-                <img src={olufemi} className="execuimgg" />
-                <p className="execu-oro">MR OLUFEMI OKANLAWON</p>
-                <p className="execu-oro2">{"Public Secretary"}</p>
+                <img src={adetula} className="execuimgg" />
+                <p className="execu-oro">Chief Wilson Adetula</p>
+                <p className="execu-oro2">{"Treasurer"}</p>
               </div>
             </div>
           </div>
@@ -60,7 +62,7 @@ const Executive = () => {
               <div className="execuimg">
                 <img src={lekan} className="execuimgg2" />
                 <p className="execu-oro">MR OLALEKAN ELEGBEDE</p>
-                <p className="execu-oro2">{"Geneneral Secretary"}</p>
+                <p className="execu-oro2">{"Financial Secretary"}</p>
               </div>
             </div>
             <div className="execu1-3">
@@ -80,8 +82,20 @@ const Executive = () => {
                 <p className="execu-oro2">{"Social Secretary"}</p>
               </div>
             </div>
-            <div className="execu1-2"></div>
-            <div className="execu1-3"></div>
+            <div className="execu1-2">
+              <div className="execuimg">
+                <img src={bashir} className="execuimgg" />
+                <p className="execu-oro">MR Muhammed Balogun</p>
+                <p className="execu-oro2">{"Treasurer"}</p>
+              </div>
+            </div>
+            <div className="execu1-3">
+            <div className="execuimg">
+                <img src={olufemi} className="execuimgg" />
+                <p className="execu-oro">MR OLUFEMI OKANLAWON</p>
+                <p className="execu-oro2">{"Publicity Secretary"}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

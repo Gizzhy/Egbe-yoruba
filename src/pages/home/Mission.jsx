@@ -66,9 +66,8 @@ const Mission = () => {
                   />
                 </div>
                 <div className="mis-w-a1-2">
-                  To empower the Yoruba diaspora community in Germany through
-                  collaborative projects that enhance the well-being and success
-                  of our members.
+                Promote unity, friendly and loving spirit amongst Yoruba in Germany as well as any Yoruba people in the diaspora regardless of their political affiliations, religions or gender.
+
                 </div>
               </div>
               {/* another */}
@@ -84,9 +83,8 @@ const Mission = () => {
                   />
                 </div>
                 <div className="mis-w-a1-2">
-                  To foster a strong sense of unity among Yoruba individuals in
-                  Germany by providing a platform for networking, social
-                  interaction, building a closely-knit community.
+                To ensure that Yorubas and other people of other nations are able to relate more socially and culturally, endeavors of social relation must be encouraged.
+
                 </div>
               </div>
             </div>

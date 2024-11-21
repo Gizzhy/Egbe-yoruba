@@ -4,6 +4,7 @@ import gong2 from "../../assets/images/gong2.svg";
 import Gal1 from "./components/Gal1";
 import Gal2 from "./components/Gal2";
 import Gal3 from "./components/Gal3";
+import Gal4 from "./components/Gal4";
 
 const Gallerybody = () => {
   return (
@@ -39,6 +40,8 @@ const Gallerybody = () => {
             e.V - Munich
           </p>
           <Gal3 />
+          <p className="pic1">EIOG National Congress AACHEN - February 2024</p>
+          <Gal4 />
         </div>
       </div>
     </>
