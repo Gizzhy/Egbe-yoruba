@@ -54,61 +54,6 @@ import gal75 from "../../assets/2023/40gal2023.jpg";
 // next
 // next
 
-import gal95 from "../../assets/eiog/13eiog.jpg";
-import gal78 from "../../assets/eiog/14eiog.jpg";
-import gal79 from "../../assets/eiog/15eiog.jpg";
-import gal80 from "../../assets/eiog/16eiog.jpg";
-import gal81 from "../../assets/eiog/17eiog.jpg";
-import gal82 from "../../assets/eiog/18eiog.jpg";
-import gal83 from "../../assets/eiog/19eiog.jpg";
-import gal84 from "../../assets/eiog/20eiog.jpg";
-import gal85 from "../../assets/eiog/21eiog.jpg";
-import gal86 from "../../assets/eiog/22eiog.jpg";
-import gal87 from "../../assets/eiog/23eiog.jpg";
-import gal88 from "../../assets/eiog/24eiog.jpg";
-import gal89 from "../../assets/eiog/25eiog.jpg";
-import gal90 from "../../assets/eiog/26eiog.jpg";
-import gal91 from "../../assets/eiog/27eiog.jpg";
-import gal92 from "../../assets/eiog/28eiog.jpg";
-import gal93 from "../../assets/eiog/29eiog.jpg";
-import gal94 from "../../assets/eiog/30eiog.jpg";
-// next
-// next
-// next
-// next
-// next
-import gal100 from "../../assets/2024/2024eioyg1.jpeg";
-import gal101 from "../../assets/2024/2024eioyg2.jpeg";
-import gal102 from "../../assets/2024/2024eioyg3.jpeg";
-import gal103 from "../../assets/2024/2024eioyg4.jpeg";
-import gal104 from "../../assets/2024/2024eioyg5.jpeg";
-import gal105 from "../../assets/2024/2024eioyg6.jpeg";
-import gal106 from "../../assets/2024/2024eioyg7.jpeg";
-import gal107 from "../../assets/2024/2024eioyg8.jpeg";
-import gal108 from "../../assets/2024/2024eioyg38.jpeg";
-import gal109 from "../../assets/2024/2024eioyg9.jpeg";
-import gal110 from "../../assets/2024/2024eioyg10.jpeg";
-import gal111 from "../../assets/2024/2024eioyg11.jpeg";
-import gal112 from "../../assets/2024/2024eioyg12.jpeg";
-import gal113 from "../../assets/2024/2024eioyg13.jpeg";
-import gal114 from "../../assets/2024/2024eioyg14.jpeg";
-import gal115 from "../../assets/2024/2024eioyg15.jpeg";
-import gal116 from "../../assets/2024/2024eioyg16.jpeg";
-import gal117 from "../../assets/2024/2024eioyg17.jpeg";
-import gal118 from "../../assets/2024/2024eioyg18.jpeg";
-import gal119 from "../../assets/2024/2024eioyg39.jpeg";
-import gal120 from "../../assets/2024/2024eioyg40.jpeg";
-import gal121 from "../../assets/2024/2024eioyg41.jpeg";
-import gal122 from "../../assets/2024/2024eioyg42.jpeg";
-import gal123 from "../../assets/2024/2024eioyg43.jpeg";
-import gal124 from "../../assets/2024/2024eioyg44.jpeg";
-import gal125 from "../../assets/2024/2024eioyg45.jpeg";
-import gal126 from "../../assets/2024/2024eioyg46.jpeg";
-import gal127 from "../../assets/2024/2024eioyg47.jpeg";
-import gal128 from "../../assets/2024/2024eioyg48.jpeg";
-import gal129 from "../../assets/2024/2024eioyg49.jpeg";
-import gal130 from "../../assets/2024/2024eioyg50.jpeg";
-
 const galleryImage = {
   galleryEventOne: [
     {
@@ -296,201 +241,209 @@ const galleryImage = {
   ],
   galleryEventThree: [
     {
-      gal: gal79,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198797/19eiog_uczuap.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal78,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198795/17eiog_je2myr.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal80,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198793/16eiog_jbog7q.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal81,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198791/13eiog_yvc3o9.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal82,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198793/15eiog_dma1o1.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal83,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198792/14eiog_alwsjw.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal84,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198790/11eiog_ixkmdk.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal85,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198790/12eiog_swegqf.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal86,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198790/10eiog_gfgea2.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal87,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198789/9eiog_f77mcq.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal88,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198787/6eiog_ozp5xs.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal89,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198789/7eiog_h5xj0c.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal90,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198790/8eiog_h1g5ps.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal91,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198710/5eiog_onbiea.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal92,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198709/4eiog_wjsize.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal93,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198709/2eiog_uy5c9w.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal94,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198708/1eiog_ctp33k.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal95,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732198710/3eiog_gtdocj.jpg",
       alt: "EIOYG image",
     },
   ],
   galleryEventFour: [
     {
-      gal: gal100,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194067/WhatsApp_Image_2024-11-02_at_18.57.53_1_iarypp.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal101,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194066/WhatsApp_Image_2024-11-02_at_18.57.51_16_il8vuy.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal102,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194067/WhatsApp_Image_2024-11-02_at_18.57.52_14_nastes.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal103,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194065/WhatsApp_Image_2024-11-02_at_18.57.51_14_hdkefm.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal104,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194064/WhatsApp_Image_2024-11-02_at_18.57.51_10_qczqjx.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal105,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194063/WhatsApp_Image_2024-11-02_at_18.57.50_9_urpngf.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal106,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194063/WhatsApp_Image_2024-11-02_at_18.57.50_5_ws4qqa.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal107,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194062/WhatsApp_Image_2024-11-02_at_18.57.50_4_npunjb.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal108,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194062/WhatsApp_Image_2024-11-02_at_18.57.49_c4uacc.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal109,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194061/WhatsApp_Image_2024-11-02_at_18.57.49_12_ieocwn.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal110,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194061/WhatsApp_Image_2024-11-02_at_18.57.48_1_o2pvgf.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal111,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194060/2024eioyg59_vifnoi.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal112,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194060/2024eioyg60_vklf2m.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal113,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194060/2024eioyg59_vifnoi.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal114,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194060/2024eioyg60_vklf2m.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal115,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194059/2024eioyg58_kfjise.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal116,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194058/2024eioyg56_ncwcxm.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal117,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194058/2024eioyg57_jdh5ea.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal118,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194057/2024eioyg55_h8p8ao.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal119,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194057/2024eioyg53_dfd9ud.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal120,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194057/2024eioyg52_tlpbqw.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal121,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194057/2024eioyg54_s71koj.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal122,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194055/2024eioyg50_rjljme.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal123,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194056/2024eioyg51_nffnhq.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal124,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194055/2024eioyg49_x4iq3z.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal125,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194054/2024eioyg48_tb0xve.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal126,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194054/2024eioyg47_cs2uca.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal127,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194053/2024eioyg46_tyjdyw.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal128,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194052/2024eioyg45_uqhrat.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal129,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194052/2024eioyg44_qrvn50.jpg",
       alt: "EIOYG image",
     },
     {
-      gal: gal130,
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194049/2024eioyg38_mqtnar.jpg",
+      alt: "EIOYG image",
+    },
+    {
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194042/2024eioyg7_dk9nrt.jpg",
+      alt: "EIOYG image",
+    },
+    {
+      gal: "https://res.cloudinary.com/ducgskep8/image/upload/v1732194040/2024eioyg4_ywrjk9.jpg",
       alt: "EIOYG image",
     },
   ],

@@ -3,18 +3,7 @@ import Gal4sub from "./Gal4sub";
 import "./gal3.css";
 
 // images
-import gal1 from "../assets/2024/2024eioyg33.jpeg";
-import gal2 from "../assets/2024/2024eioyg37.jpeg";
-import gal3 from "../assets/2024/2024eioyg23.jpeg";
-import gal4 from "../assets/2024/2024eioyg24.jpeg";
-import gal5 from "../assets/2024/2024eioyg25.jpeg";
-import gal6 from "../assets/2024/2024eioyg36.jpeg";
-import gal7 from "../assets/2024/2024eioyg33.jpeg";
-import gal9 from "../assets/2024/2024eioyg28.jpeg";
-import gal8 from "../assets/2024/2024eioyg29.jpeg";
-import gal10 from "../assets/2024/2024eioyg30.jpeg";
-import gal11 from "../assets/2024/2024eioyg31.jpeg";
-import gal12 from "../assets/2024/2024eioyg32.jpeg";
+
 
 const Gal4 = () => {
   return (
@@ -22,16 +11,16 @@ const Gal4 = () => {
       <Gal4sub />
       <div className="pic-first">
         <div className="picoo">
-          <img src={gal1} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194048/2024eioyg33_ibxroy.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal2} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194049/2024eioyg37_dtu4b5.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal3} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194042/2024eioyg2_p5soqt.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal4} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194057/2024eioyg52_tlpbqw.jpg" alt="germany2022" className="pic-real" />
         </div>
       </div>
       {/* next */}
@@ -40,16 +29,16 @@ const Gal4 = () => {
 
       <div className="pic-first">
         <div className="picoo">
-          <img src={gal5} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194042/2024eioyg11_mv7gg8.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal6} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194040/2024eioyg4_ywrjk9.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal7} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194043/2024eioyg17_ojof5w.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal8} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194046/2024eioyg30_gr4aoq.jpg" alt="germany2022" className="pic-real" />
         </div>
       </div>
       {/* next */}
@@ -57,16 +46,16 @@ const Gal4 = () => {
       {/* next */}
       <div className="pic-first">
         <div className="picoo">
-          <img src={gal9} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194050/2024eioyg40_codloe.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal10} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194054/2024eioyg48_tb0xve.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal11} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194054/2024eioyg47_cs2uca.jpg" alt="germany2022" className="pic-real" />
         </div>
         <div className="picoo">
-          <img src={gal12} alt="germany2022" className="pic-real" />
+          <img src="https://res.cloudinary.com/ducgskep8/image/upload/v1732194057/2024eioyg53_dfd9ud.jpg" alt="germany2022" className="pic-real" />
         </div>
       </div>
     </>

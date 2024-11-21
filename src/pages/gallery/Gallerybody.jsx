@@ -1,6 +1,6 @@
 import "./styles/gallerybody.css";
 import gong2 from "../../assets/images/gong2.svg";
-// import imageArray from "./imageArray";
+
 import Gal1 from "./components/Gal1";
 import Gal2 from "./components/Gal2";
 import Gal3 from "./components/Gal3";
@@ -22,16 +22,7 @@ const Gallerybody = () => {
           <p className="pic1">Nigeria - Germany Cultural Carnival 2022</p>
           <div className="pichm">
             <Gal1 />
-            {/* {imageArray.map((imagePath, index) => (
-              <div className="picoo">
-                <img
-                  key={index}
-                  src={imagePath}
-                  alt={`Image ${imagePath}`}
-                  className="pic-real"
-                />
-              </div>
-            ))} */}
+           
           </div>
           <p className="pic1">Nigeria - Germany Cultural Carnival 2023</p>
           <Gal2 />
