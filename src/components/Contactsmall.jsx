@@ -15,7 +15,7 @@ const Contactsmall = () => {
               <input
                 type="text"
                 name="name"
-                className="cont-input"
+                className="cont-inputok"
                 required
               ></input>
               {/* next */}
@@ -23,7 +23,7 @@ const Contactsmall = () => {
               <input
                 type="text"
                 name="name"
-                className="cont-input"
+                className="cont-inputok"
                 required
               ></input>
               {/* next */}
@@ -31,7 +31,7 @@ const Contactsmall = () => {
               <input
                 type="text"
                 name="name"
-                className="cont-inputt"
+                className="cont-inputtok"
                 required
               ></input>
               <div className="conbut-a">

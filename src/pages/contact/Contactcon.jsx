@@ -25,7 +25,7 @@ const Contactcon = () => {
                     <input
                       type="text"
                       name="name"
-                      className="cont-input"
+                      className="cont-inputop"
                       required
                     ></input>
                     {/* next */}
@@ -33,7 +33,7 @@ const Contactcon = () => {
                     <input
                       type="text"
                       name="name"
-                      className="cont-input"
+                      className="cont-inputop"
                       required
                     ></input>
                     {/* next */}
@@ -41,7 +41,7 @@ const Contactcon = () => {
                     <input
                       type="text"
                       name="name"
-                      className="cont-inputt"
+                      className="cont-inputtop"
                       required
                     ></input>
                     <div className="conbut-a">
