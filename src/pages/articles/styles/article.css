@@ -1,0 +1,19 @@
+.articlehero {
+  background-image: 
+    /* url("../../../assets/images/aboutframe.svg"), */ url("../../gallery/assets/2023/6gal2023.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 700px;
+  background-position: center center;
+  display: flex;
+  margin-top: 115px;
+}
+.hero-ww {
+  -webkit-text-stroke: 1px #f28c0f;
+}
+
+.hero-22 {
+  -webkit-text-stroke: 1px #f28c0f;
+}
