@@ -1,5 +1,4 @@
 .articlebody {
-  /* background-color: #3b97b6; */
   padding: 50px 0;
   width: 100%;
   background-image: url("../../../assets/images/newsline.svg");
@@ -19,6 +18,26 @@
   padding: 20px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .articlebody {
+    padding: 30px 0;
+  }
+  .articlee {
+    margin-top: 0px;
+  }
+  .articlebody {
+    flex-direction: column;
+  }
+  .articlecontent {
+    height: 330px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  .article-content {
+    padding: 15px;
+  }
+}
+
 @media screen and (min-width: 381px) and (max-width: 500px) {
   .articlebody {
     padding: 30px 0;
@@ -35,5 +54,51 @@
   }
   .article-content {
     padding: 15px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 850px) {
+  .articlecontent {
+    height: 438px;
+    width: 230px;
+  }
+  .ibeji {
+    height: 170px;
+  }
+  .news-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+  }
+  .news-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  .article-content {
+    margin-top: 0px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1025px) {
+  .articlecontent {
+    height: 440px;
+    width: 275px;
+  }
+  .ibeji {
+    height: 170px;
+  }
+  .news-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+  }
+  .news-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  .article-content {
+    margin-top: 0px;
+    padding: 10px;
   }
 }
