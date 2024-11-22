@@ -20,11 +20,13 @@ const Footer = () => {
           <div className="footer1-1">
             <img src={logo3} alt="logo" className="foot-logo" />
             <p className="foot-w">
-              We are non-governmental, non-profit, non-political, and
-              non-religious organisation to foster Socio-cul-tural development
-              of the Yoruba race in Diaspora. The association aims at producing
-              an atmosphere for Yoruba’s and other interested people to share
-              and discover Yoruba culture
+              It is our pleasure to introduce you to Egbe Isokan Omo Yoruba
+              Germany e.V., (EIOYG), a progressive group formed solely to
+              embrace Yoruba communities in Germany and envision the heroic
+              accomplishments of our forefathers. Registered on November 7,
+              2009, in Berlin, as the EIOYG focuses on protecting and
+              popularizing the Yoruba culture, the advancement of socio-cultural
+              activities, and strengthening the bonds between its members.
             </p>
             <div className="foot-way">
               <img src={location} alt="location" className="foot-icon" />
