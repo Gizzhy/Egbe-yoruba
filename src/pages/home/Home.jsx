@@ -8,6 +8,7 @@ import Navbar from "../../components/Navbar.jsx";
 import Preloader from "../../components/Preloader";
 import Footer from "../../components/Footer.jsx";
 import Contactsmall from "../../components/Contactsmall";
+import News from "../../components/News";
 import "../../styles/home.css";
 import { useEffect, useState } from "react";
 
@@ -29,6 +30,7 @@ const Home = () => {
           <Header />
           <Mission />
           <Gallery />
+          <News />
           <Proverbs />
           <Contactsmall />
           <Footer />

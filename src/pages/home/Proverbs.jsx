@@ -9,7 +9,7 @@ const Proverbs = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setActiveDiv((prevActiveDiv) => (prevActiveDiv % 11) + 1);
+      setActiveDiv((prevActiveDiv) => (prevActiveDiv % 12) + 1);
     }, 9000); // Change the interval as needed (here, it transitions every 2000 milliseconds)
 
     return () => clearInterval(intervalId); // Cleanup the interval on component unmount
@@ -102,14 +102,14 @@ const Proverbs = () => {
               appearances.
             </p>
           </div>
-          <div className={`myDivvv ${activeDiv === 10 ? "show" : "hide"}`}>
+          <div className={`myDivvv ${activeDiv === 11 ? "show" : "hide"}`}>
             <p className="prov-oro">Ọ̀rọ̀ ní ńdá s'ẹ́gbẹ́.</p>
             <p className="prov-oro2">(Words are what create enemies.)</p>
             <p className="prov-oro2">
               - Be mindful of what you say, as words can create conflicts.
             </p>
           </div>
-          <div className={`myDivvv ${activeDiv === 11 ? "show" : "hide"}`}>
+          <div className={`myDivvv ${activeDiv === 12 ? "show" : "hide"}`}>
             <p className="prov-oro">Ẹnu là ńfì ńsè wà, a kì í f'ẹnu ṣ'àjẹ.</p>
             <p className="prov-oro2">
               (The mouth is for speaking, not for gossiping.)
