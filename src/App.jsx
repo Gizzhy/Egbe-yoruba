@@ -6,6 +6,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Gallery from "./pages/gallery/Gallery";
 import Articles from "./pages/articles/Articles";
+import Ibeji from "./pages/articles/blog/Ibeji";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -20,8 +21,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/articles" element={<Articles />} />
-            {/* <Route path="/articles" element={<Articles />} /> */}
-
+            <Route path="/articles/orisaibeji" element={<Ibeji />} />
             {/* <Route path="/*" element={<Notfound />} /> */}
           </Routes>
         </BrowserRouter>

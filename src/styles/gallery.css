@@ -584,6 +584,10 @@
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1150px) {
+  .gallery-things2 {
+    width: 90vw;
+  }
+
   .gal-bb {
     width: 250px;
     height: 56px;

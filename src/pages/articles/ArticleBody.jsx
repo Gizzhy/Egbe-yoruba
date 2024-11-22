@@ -8,6 +8,7 @@ const articlesData1 = [
     title: "Orisa Ibeji",
     description:
       "Orisa Ibeji is a Yoruba deity representing twins. In Yoruba culture and spirituality, twins are believed to be magical, and are granted protection by the Orisha Shango. If one twin should die, it represents bad ......",
+    link: "/articles/orisaibeji",
   },
   {
     image: ibeji,
@@ -15,6 +16,7 @@ const articlesData1 = [
     title: "Orisa Ibeji",
     description:
       "Orisa Ibeji is a Yoruba deity representing twins. In Yoruba culture and spirituality, twins are believed to be magical, and are granted protection by the Orisha Shango. If one twin should die, it represents bad ......",
+    link: "/articles/orisaibeji",
   },
   {
     image: ibeji,
@@ -22,6 +24,7 @@ const articlesData1 = [
     title: "Orisa Ibeji",
     description:
       "Orisa Ibeji is a Yoruba deity representing twins. In Yoruba culture and spirituality, twins are believed to be magical, and are granted protection by the Orisha Shango. If one twin should die, it represents bad ......",
+    link: "/articles/orisaibeji",
   },
 ];
 
@@ -37,7 +40,7 @@ const ArticleBody = () => {
                 <p className="news-category">{item.category}</p>
                 <p className="news-title">{item.title}</p>
                 <p className="news-description">{item.description}</p>
-                <a href="#" className="read-more">
+                <a href={item.link} className="read-more">
                   Read more &#8599;
                 </a>
               </div>

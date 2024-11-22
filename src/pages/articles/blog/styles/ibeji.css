@@ -1,0 +1,58 @@
+.ibejiarea {
+  margin-top: 115px;
+}
+.ibejihero {
+  background-image: url("../../../../assets/images/ibeji.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  background-position: center center;
+  display: flex;
+}
+.ibejititle {
+  font-weight: 700;
+  text-align: center;
+  font-size: 70px;
+  color: #553105;
+  font-family: "Rugral";
+  text-transform: uppercase;
+}
+.ibeji-oro {
+  color: #546881;
+  font-size: 15px;
+  line-height: 1.7em;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  padding: 0 40px;
+}
+.ibeji-oro1 {
+  color: #553105;
+  font-family: "Rugral";
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 40px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .ibejititle {
+    font-size: 30px;
+  }
+  .ibeji-oro {
+    padding: 0 15px;
+  }
+  .ibeji-oro1 {
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 500px) {
+  .ibejititle {
+    font-size: 40px;
+  }
+  .ibeji-oro {
+    padding: 0 15px;
+  }
+  .ibeji-oro1 {
+    padding: 0 15px;
+  }
+}

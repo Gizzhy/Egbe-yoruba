@@ -1,8 +1,7 @@
 import "../../styles/gallery.css";
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import gal1 from "../../assets/gallery/images/gal1.jpg";
 import gal2 from "../../assets/gallery/images/gal2.jpg";
-// import gal3 from "../../assets/gallery/images/gal3.jpg";
 import gal5 from "../../assets/gallery/images/gal5.jpg";
 import gal6 from "../../assets/gallery/images/gal6.jpg";
 import gal7 from "../../assets/gallery/images/gal7.jpg";
@@ -11,11 +10,9 @@ import gal9 from "../../assets/gallery/images/gal9.jpg";
 import gal10 from "../../assets/gallery/images/gal10.jpg";
 import gal11 from "../../assets/gallery/images/gal11.jpg";
 import gal12 from "../../assets/gallery/images/gal12.jpg";
-// import gal13 from "../../assets/gallery/images/gal13.jpg";
 import eiog31 from "../../assets/gallery/images/31eiog.jpg";
 import eiog32 from "../../assets/gallery/images/32eiog.jpg";
 import eiog33 from "../../assets/gallery/images/34eiog.jpg";
-// import eiog34 from "../../assets/gallery/images/34eiog.jpg";
 import gal1vid from "../../assets/gallery/videos/gal1vid2022.mp4";
 import gal2vid from "../../assets/gallery/videos/gal2vid2022.mp4";
 import gal3vid from "../../assets/gallery/videos/gal3vid2022.mp4";
@@ -25,23 +22,8 @@ import gal6vid from "../../assets/gallery/videos/gal6vid2022.mp4";
 import gal7vid from "../../assets/gallery/videos/gal7vid2022.mp4";
 import gal8vid from "../../assets/gallery/videos/gal8vid2022.mp4";
 
-// import gal15 from "../../assets/gallery/images/gal15.jpg";
-
 const Gallery = () => {
   const [activeButton, setActiveButton] = useState("button1");
-  // const [name, setName] = useState("");
-
-  // useEffect(() => {
-  //   // Fetch data from your API
-  //   fetch("https://jsonplaceholder.typicode.com/users")
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       // Assuming your API response is an array of users
-  //       const names = data.map((user) => user.name).join(", ");
-  //       setName(names);
-  //     })
-  //     .catch((error) => console.error("Error fetching data:", error));
-  // }, []);
   const videoRef = useRef(null);
 
   const playPause = () => {
@@ -57,19 +39,6 @@ const Gallery = () => {
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
   };
-  // zoom
-  // zoom
-  // const [zoomed, setZoomed] = useState(false);
-
-  // const toggleZoom = (event) => {
-  //   if (zoomed) {
-  //     event.target.style.transform = "scale(1)";
-  //   } else {
-  //     event.target.style.transform = "scale(2.5)";
-  //   }
-
-  //   setZoomed(!zoomed);
-  // };
 
   return (
     <>
