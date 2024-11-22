@@ -7,6 +7,8 @@ import Contact from "./pages/contact/Contact";
 import Gallery from "./pages/gallery/Gallery";
 import Articles from "./pages/articles/Articles";
 import Ibeji from "./pages/articles/blog/Ibeji";
+import Sango from "./pages/articles/blog/Sango";
+import Agemo from "./pages/articles/blog/Agemo";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -22,6 +24,9 @@ const App = () => {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/articles" element={<Articles />} />
             <Route path="/articles/orisaibeji" element={<Ibeji />} />
+            <Route path="/articles/sango" element={<Sango />} />
+            <Route path="/articles/agemo" element={<Agemo />} />
+
             {/* <Route path="/*" element={<Notfound />} /> */}
           </Routes>
         </BrowserRouter>

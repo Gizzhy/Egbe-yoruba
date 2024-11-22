@@ -151,8 +151,124 @@
     width: 100%;
   }
 }
+@media screen and (min-width: 300px) and (max-width: 350px) {
+  .mission1-1,
+  .mission1-2 {
+    width: 93%;
+  }
+  .mission {
+    height: 800px;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 90%;
+    margin: auto;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* box-shadow: 0px 15px 10px -15px #111; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .mission-img1 {
+    width: 100%;
+  }
+  .mission1 {
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .mis-w-a1,
+  .mis-w-a2,
+  .mis-w-a3 {
+    width: 260px;
+    height: 85px;
+    padding: 0 5px;
+  }
+  .mission2 {
+    display: none;
+  }
+  .mission1-1 {
+    text-align: center;
+    margin-right: 0;
+    margin: auto;
+  }
+  .mis-w {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+  }
+  .mis-w-a1-2 {
+    text-align: justify;
+    font-size: 11px;
+    margin-left: 8px;
+  }
+  .mission-img1-1 {
+    width: 100%;
+  }
+  .mis-button {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 370px) {
+  .mission1-1,
+  .mission1-2 {
+    width: 93%;
+  }
+  .mission {
+    height: 800px;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 90%;
+    margin: auto;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* box-shadow: 0px 15px 10px -15px #111; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .mission-img1 {
+    width: 100%;
+  }
+  .mission1 {
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .mis-w-a1,
+  .mis-w-a2,
+  .mis-w-a3 {
+    width: 280px;
+    height: 100px;
+    padding: 0 7px;
+  }
+  .mission2 {
+    display: none;
+  }
+  .mission1-1 {
+    text-align: center;
+    margin-right: 0;
+    margin: auto;
+  }
+  .mis-w {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+  }
+  .mis-w-a1-2 {
+    text-align: justify;
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .mission-img1-1 {
+    width: 100%;
+  }
+  .mis-button {
+    margin-left: 10px;
+  }
+}
 
-@media screen and (min-width: 300px) and (max-width: 380px) {
+@media screen and (min-width: 371px) and (max-width: 380px) {
   .mission1-1,
   .mission1-2 {
     width: 93%;

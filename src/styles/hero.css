@@ -218,19 +218,19 @@
   @keyframes changeBackground {
     0%,
     100% {
-      background-image: url(".././assets/images/egun.webp"); /* Initial background image */
+      background-image: url(".././assets/gallery/images/gal19.jpg"); /* Initial background image */
     }
     20% {
-      background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/gallery/images/gal7.jpg"); /* Second background image after 3 seconds */
     }
     40% {
-      background-image: url(".././assets/images/eyoo.jpeg"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/gallery/images/gal8.jpg"); /* Second background image after 3 seconds */
     }
     60% {
-      background-image: url(".././assets/images/ayoolopon.webp"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/gallery/images/gal10.jpg"); /* Second background image after 3 seconds */
     }
     80% {
-      background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
+      background-image: url(".././assets/gallery/images/gal15.jpg"); /* Back to the initial background image after 9 seconds */
     }
   }
 }

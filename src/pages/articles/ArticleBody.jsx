@@ -1,6 +1,9 @@
 import React from "react";
 import "./styles/articlebody.css";
 import ibeji from "../../assets/images/ibeji.webp";
+import sango from "../../assets/images/sango.jpg";
+import agemo from "../../assets/images/agemo.png";
+
 const articlesData1 = [
   {
     image: ibeji,
@@ -11,20 +14,20 @@ const articlesData1 = [
     link: "/articles/orisaibeji",
   },
   {
-    image: ibeji,
+    image: sango,
     category: "Stories",
-    title: "Orisa Ibeji",
+    title: "Sàngó Olukoso",
     description:
-      "Orisa Ibeji is a Yoruba deity representing twins. In Yoruba culture and spirituality, twins are believed to be magical, and are granted protection by the Orisha Shango. If one twin should die, it represents bad ......",
-    link: "/articles/orisaibeji",
+      "Sàngó is one of the most powerful and revered deities in Yoruba mythology, Nigeria. He is the god of thunder, lightning, and fire and is associated with strength, justice, and power. His story is rich with...",
+    link: "/articles/sango",
   },
   {
-    image: ibeji,
+    image: agemo,
     category: "Stories",
-    title: "Orisa Ibeji",
+    title: "Orisa Agemo",
     description:
-      "Orisa Ibeji is a Yoruba deity representing twins. In Yoruba culture and spirituality, twins are believed to be magical, and are granted protection by the Orisha Shango. If one twin should die, it represents bad ......",
-    link: "/articles/orisaibeji",
+      "Orisa Agemo is central to Yoruba religious tradition at the same time as a mutation and intercessor between the worlds sacred. The Festival of Agemo, dreamt up by a chameleon......",
+    link: "/articles/agemo",
   },
 ];
 

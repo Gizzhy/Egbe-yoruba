@@ -10,6 +10,24 @@
   background-position: center center;
   display: flex;
 }
+.sangohero {
+  background-image: url("../../../../assets/images/sango.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  background-position: center center;
+  display: flex;
+}
+.agemohero {
+  background-image: url("../../../../assets/images/agemo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  background-position: center center;
+  display: flex;
+}
 .ibejititle {
   font-weight: 700;
   text-align: center;
