@@ -82,18 +82,14 @@ const Agemo = () => {
           rituals—adds to their spiritual and aesthetic significance.
         </p>
         <p className="ibeji-oro1">Key Rituals and Practices</p>
-        <p className="ibeji-oro1">
-          Procession of the Agemo Priests: Procession of the Agemo Priests:
-        </p>
+        <p className="ibeji-oro1">Procession of the Agemo Priests:</p>
         <p className="ibeji-oro">
           A congregation of the 16 sub-clans (Ijebu towns) ethnic groups
           attended to the priest of Agemo, who organised the ceremony in
           IjebuOde. This is a processional, and the processional is an image of
           unity of town(s) and a communal worship of the Agemo.
         </p>
-        <p className="ibeji-oro1">
-          Masquerade Performances: Masquerade Performances:
-        </p>
+        <p className="ibeji-oro1">Masquerade Performances:</p>
         <p className="ibeji-oro">
           And the show of the masquerades is at the heart of the festival and
           believed to be the true heart of Agemo. All this is united by [lively]
@@ -101,9 +97,7 @@ const Agemo = () => {
           movie screen that captivates the onlooker and expresses religious
           thoughts.
         </p>
-        <p className="ibeji-oro1">
-          Sacrificial Offerings and Prayers: Sacrificial Offerings and Prayers:
-        </p>
+        <p className="ibeji-oro1">Sacrificial Offerings and Prayers:</p>
         <p className="ibeji-oro">
           Ritual food and/or sacrifice of animals is at the same time a gift for
           Agnemo, by which is intended to have the blessing from the god
