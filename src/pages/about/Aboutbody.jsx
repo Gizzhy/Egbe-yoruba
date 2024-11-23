@@ -60,15 +60,9 @@ const Abouthero = () => {
             <img src={gong3} alt="gong" className="gongs-imgg" />
           </div>
         </div>
-        {/* <p className="ab-3">
-          Vestibulum hendrerit vehicula aliquet. Mauris volutpat tortor eget
-          lorem blandit, a bibendum tortor tristique. Suspendisse sed neque sed
-          enim pellentesque suscipit. Praesent mauris metus, facilisis et metus
-          ut, commodo pellentesque neque. Quisque quis nulla enim. Duis euismod
-          purus in dignissim finibus. Fusce lacinia nunc quis urna fringilla
-          cursus. Aliquam bibendum lacus in vulputate sodales. Proin euismod
-          mauris et mi eleifend egestas.
-        </p> */}
+        <a href="/about/otherbodies">
+          <button className="bodies-button">View bodies in the organization</button>
+        </a>
       </div>
     </>
   );

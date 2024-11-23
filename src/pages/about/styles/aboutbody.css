@@ -49,6 +49,17 @@
 .gonggg2 {
   margin-right: auto;
 }
+.bodies-button {
+  border: 0;
+  border-radius: 10px;
+  height: 60px;
+  color: white;
+  background-color: #f28c0f;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
 @media screen and (min-width: 100px) and (max-width: 299px) {
   .ab-2 {
