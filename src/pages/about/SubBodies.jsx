@@ -12,10 +12,10 @@ const SubBodies = () => {
 
       <div className="subbodies">
         <p className="subbodies1">
-          Umbrella organization of Yorubá organizations in Germany
+          The Central Association of Yorùbá Organizations in Germany
         </p>
         <p className="oooop">
-          Here is a list of the bodies within our organization:
+          Below is a list of the affiliated groups within our organization:
         </p>
         <div className="sub-content">
           <img src={about5} alt="gangan" className="sub-img" />
