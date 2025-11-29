@@ -66,7 +66,7 @@ const About = () => {
               </div>
               <div className="mis-w-a1-2a">
                 To promote unity, friendliness and love among the Yorubas in
-                Bayern/Germany and in the Diaspora irrespective of political
+                Germany and in the Diaspora irrespective of political
                 inclination, creed or sex.
               </div>
             </div>
@@ -87,7 +87,7 @@ const About = () => {
               </div>
               <div className="mis-w-a1-2a">
                 To cherish, uphold and project the honour and dignity of Yoruba
-                culture, language and tradition in Bayern Germany and the
+                culture, language and tradition in Germany and the
                 Diaspora.
               </div>
             </div>
@@ -148,7 +148,7 @@ const About = () => {
               </div>
               <div className="mis-w-a1-2a">
                 To support the educational development and economical
-                empowerment of Yoruba community in Bayern Germany.
+                empowerment of Yoruba community in Germany.
               </div>
             </div>
             {/* another */}
@@ -188,7 +188,7 @@ const About = () => {
                 />
               </div>
               <div className="mis-w-a1-2a">
-                To work with other organizations within and outside Bayern,
+                To work with other organizations within and outside Germany,
                 Germany that share our similar objectives and goals.
               </div>
             </div>
