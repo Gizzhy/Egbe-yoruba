@@ -10,6 +10,7 @@ import Ibeji from "./pages/articles/blog/Ibeji";
 import Sango from "./pages/articles/blog/Sango";
 import Agemo from "./pages/articles/blog/Agemo";
 import SubBodies from "./pages/about/SubBodies";
+import Privacy from "./pages/privacy-policy/Privacy";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/articles/sango" element={<Sango />} />
             <Route path="/articles/agemo" element={<Agemo />} />
             <Route path="/about/otherbodies" element={<SubBodies />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
 
             {/* <Route path="/*" element={<Notfound />} /> */}
           </Routes>
