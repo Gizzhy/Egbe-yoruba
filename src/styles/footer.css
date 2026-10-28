@@ -40,6 +40,9 @@
   display: inline-flex;
   align-items: center;
 }
+a.foot-way:hover .foot-oro {
+  text-decoration: underline;
+}
 .foot-oro,
 .foot-links {
   color: #090b0e;
@@ -168,6 +171,10 @@ a {
     align-items: center;
     min-height: 44px;
     margin: 0;
+  }
+  .footer1-2 a.foot-way {
+    display: inline-flex;
+    min-height: 44px;
   }
   .foot-form {
     display: flex;

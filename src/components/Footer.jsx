@@ -60,15 +60,15 @@ const Footer = () => {
               <a href="/contact">
                 <p className="foot-links">Contact Us</p>
               </a>
-              <div className="foot-way">
+              <a className="foot-way" href="tel:+4917632398400">
                 <img src={call} alt="Phone" className="foot-icon" />
                 <p className="foot-oro">+49 176 323 98400</p>
-              </div>
+              </a>
               <br />
-              <div className="foot-way">
+              <a className="foot-way" href="mailto:secretary@isokanyoruba.com">
                 <img src={mail} alt="E-mail" className="foot-icon" />
                 <p className="foot-oro">secretary@isokanyoruba.com</p>
-              </div>
+              </a>
             </div>
           </div>
           {/* third section */}
