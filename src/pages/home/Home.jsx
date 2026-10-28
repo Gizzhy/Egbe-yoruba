@@ -14,20 +14,46 @@ import "../../styles/home.css";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
+const PRELOADER_SEEN_KEY = "eioyg-preloader-seen";
+
+// Storage can throw (private mode, blocked site data); then fall back to
+// showing the preloader, which is the old behaviour.
+const hasSeenPreloader = () => {
+  try {
+    return sessionStorage.getItem(PRELOADER_SEEN_KEY) === "1";
+  } catch {
+    return false;
+  }
+};
+
+const markPreloaderSeen = () => {
+  try {
+    sessionStorage.setItem(PRELOADER_SEEN_KEY, "1");
+  } catch {
+    // ignore: the preloader just shows again next time
+  }
+};
+
 const Home = () => {
-  const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
+  // Once per browser session, and never when deep-linking to a section
+  // like /#events.
+  const [isLoading, setIsLoading] = useState(
+    () => !location.hash && !hasSeenPreloader()
+  );
 
   useEffect(() => {
+    if (!isLoading) return undefined;
     const timer = setTimeout(() => {
+      markPreloaderSeen();
       setIsLoading(false);
     }, 3950);
     return () => clearTimeout(timer);
-  }, []);
+  }, [isLoading]);
 
-  // Sections only exist after the preloader, so the browser's own jump to
-  // "/#events" misses them. Scroll once they are rendered, and again on every
-  // in-app navigation to a hash (location.key changes even for the same hash).
+  // The browser's own jump to "/#events" can run before the sections are
+  // rendered. Scroll once they are, and again on every in-app navigation to
+  // a hash (location.key changes even for the same hash).
   useEffect(() => {
     if (isLoading || !location.hash) return;
     const target = document.getElementById(
