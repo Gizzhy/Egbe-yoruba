@@ -42,7 +42,7 @@ const Footer = () => {
               <a href="/about">
                 <p className="foot-links">About Us</p>
               </a>
-              <a href="/gallery">
+              <a href="/#events">
                 <p className="foot-links">Events</p>
               </a>
               <a href="/gallery">

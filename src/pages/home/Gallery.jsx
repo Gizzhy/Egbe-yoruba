@@ -42,7 +42,7 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="gallery">
+      <div className="gallery" id="gallery">
         <div className="gallery1">
           <p className="gallery-w">Gallery</p>
         </div>

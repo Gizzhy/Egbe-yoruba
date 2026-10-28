@@ -67,6 +67,9 @@ const Navbar = () => {
           >
             <Link to="/articles">Articles</Link>
           </li>
+          <li className="nav-item nav-link">
+            <Link to="/#events">Upcoming Events</Link>
+          </li>
           <li
             className="nav-item nav-link"
             data-aos="fade-left"
@@ -107,7 +110,8 @@ const Navbar = () => {
           <a href="/">HOME</a>
           <a href="/about">ABOUT</a>
           <a href="/articles">ARTICLES</a>
-          <a href="/gallery">EVENTS & GALLERY</a>
+          <Link to="/#events">UPCOMING EVENTS</Link>
+          <a href="/gallery">GALLERY</a>
         </div>
       </nav>
     </>
