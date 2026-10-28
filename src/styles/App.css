@@ -1,0 +1,9 @@
+/* Global safety net: media never wider than its container. Class rules that
+   set an explicit width/height still win (element selectors are weakest). */
+img,
+video {
+  max-width: 100%;
+}
+img {
+  height: auto;
+}

@@ -32,6 +32,7 @@
 
 .hero2 {
   width: 990px;
+  max-width: calc(100% - 120px);
   height: 600px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -42,7 +43,7 @@
 }
 
 .hero-w {
-  font-size: 65px;
+  font-size: clamp(26px, 1rem + 3.5vw, 65px);
   font-weight: 700;
   color: #000000;
 
@@ -63,74 +64,70 @@
   font-size: 25px;
   font-weight: 500;
 }
-@media screen and (min-width: 100px) and (max-width: 299px) {
+/* Smaller screens: same box, fluid instead of fixed per-range sizes.
+   Portrait-friendly photos rotate on phones (keyframes per range below). */
+@media screen and (max-width: 1100px) {
   .hero2 {
-    width: 220px;
+    height: auto;
+    min-height: 480px;
+    margin: auto 0 auto 32px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-main {
+    height: auto;
+    min-height: 560px;
+    margin-top: 98px;
+    padding: 32px 16px;
+    box-sizing: border-box;
+  }
+  .hero2 {
+    width: 100%;
+    max-width: 560px;
+    min-height: 0;
     margin: auto;
-    height: 480px;
-    padding: 20px;
+    padding: 24px 20px;
+    box-sizing: border-box;
   }
   .hero-w {
-    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0 0 16px;
   }
   .hero-w2 {
     width: 100%;
-    font-size: 15px;
-    text-align: justify;
+    font-size: clamp(15px, 0.85rem + 0.5vw, 20px);
+    line-height: 1.5;
   }
   .hero-w3 {
-    font-size: 16px;
+    font-size: clamp(17px, 1rem + 0.5vw, 21px);
   }
+}
+@media screen and (max-width: 500px) {
   .hero-main {
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: changeBackground 12s infinite;
+    animation-duration: 15s;
   }
+}
+@media screen and (max-width: 299px) {
   @keyframes changeBackground {
     0%,
     100% {
-      background-image: url(".././assets/images/egun.webp"); /* Initial background image */
+      background-image: url(".././assets/images/egun.webp");
     }
     20% {
-      background-image: url(".././assets/images/dancerss.jpeg"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/images/dancerss.jpeg");
     }
     40% {
-      background-image: url(".././assets/images/eyoo.jpeg"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/images/eyoo.jpeg");
     }
     60% {
-      background-image: url(".././assets/images/ayoolopon.webp"); /* Second background image after 3 seconds */
+      background-image: url(".././assets/images/ayoolopon.webp");
     }
     80% {
-      background-image: url(".././assets/images/Yoruba-Dancers.jpeg"); /* Back to the initial background image after 9 seconds */
+      background-image: url(".././assets/images/Yoruba-Dancers.jpeg");
     }
   }
 }
-
 @media screen and (min-width: 300px) and (max-width: 380px) {
-  .hero2 {
-    width: 270px;
-    margin: auto;
-    height: 500px;
-  }
-  .hero-w {
-    font-size: 22px;
-  }
-  .hero-w2 {
-    width: 100%;
-    font-size: 17px;
-    text-align: justify;
-  }
-  .hero-w3 {
-    font-size: 18px;
-  }
-  .hero-main {
-    background-image: url(".././assets/images/dancing.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .hero-main {
-    animation: changeBackground 12s infinite;
-  }
   @keyframes changeBackground {
     0%,
     100% {
@@ -150,71 +147,7 @@
     }
   }
 }
-
-@media screen and (min-width: 381px) and (max-width: 500px) {
-  .hero2 {
-    width: 300px;
-    margin: auto;
-    height: 500px;
-  }
-  .hero-w {
-    font-size: 23px;
-    font-weight: 500;
-  }
-  .hero-w2 {
-    width: 100%;
-    font-size: 18px;
-    text-align: justify;
-  }
-  .hero-w3 {
-    font-size: 19px;
-  }
-  .hero-main {
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: changeBackground 15s infinite;
-  }
-  @keyframes changeBackground {
-    0%,
-    100% {
-      background-image: url(".././assets/gallery/images/gal19.jpg"); /* Initial background image */
-    }
-    20% {
-      background-image: url(".././assets/gallery/images/gal7.jpg"); /* Second background image after 3 seconds */
-    }
-    40% {
-      background-image: url(".././assets/gallery/images/gal8.jpg"); /* Second background image after 3 seconds */
-    }
-    60% {
-      background-image: url(".././assets/gallery/images/gal10.jpg"); /* Second background image after 3 seconds */
-    }
-    80% {
-      background-image: url(".././assets/gallery/images/gal15.jpg"); /* Back to the initial background image after 9 seconds */
-    }
-  }
-}
-@media screen and (min-width: 501px) and (max-width: 850px) {
-  .hero2 {
-    width: 390px;
-    margin: auto;
-    height: 500px;
-  }
-  .hero-w {
-    font-size: 27px;
-  }
-  .hero-w2 {
-    width: 100%;
-    font-size: 20px;
-    text-align: justify;
-  }
-  .hero-w3 {
-    font-size: 21px;
-  }
-  .hero-main {
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: changeBackground 12s infinite;
-  }
+@media screen and (min-width: 381px) and (max-width: 850px) {
   @keyframes changeBackground {
     0%,
     100% {

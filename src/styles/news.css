@@ -73,77 +73,62 @@
   color: #d9a273;
 }
 
-@media screen and (min-width: 766px) {
-  .newscontentmobile {
-    display: none;
+@media screen and (max-width: 1150px) {
+  .newsbody {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 24px;
+    padding: 40px 24px;
+    box-sizing: border-box;
+  }
+  .newscontent {
+    width: 100%;
+    height: auto;
+    padding-bottom: 12px;
+  }
+  .news-content {
+    margin-top: 0;
+  }
+  .newscontent .ibeji {
+    height: 200px;
+  }
+  .news .gal-bb {
+    margin-left: 24px;
   }
 }
-@media screen and (max-width: 766px) {
-  .newscontent {
-    display: none;
+@media screen and (max-width: 900px) {
+  .read-more {
+    display: inline-block;
+    padding: 13px 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .news1 {
+    height: 70px;
+    width: 260px;
+    border-radius: 35px 0px 35px 0px;
+  }
+  .news-w {
+    font-size: 24px;
   }
   .newsbody {
-    margin-top: 50px;
-    height: 500px;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    padding: 32px 16px;
+    gap: 20px;
   }
-  .newscontentmobile {
-    height: 350px;
-    width: 150px;
-    border-radius: 20px;
-    background-color: white;
-  }
-  .news-content {
-    margin-top: 0px;
-    padding: 8px;
-  }
-  .ibeji {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-  }
-  .news-category {
-    font-size: 12px;
-    line-height: 5px;
-    font-weight: 500;
-  }
-  .news-title {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 5px;
-  }
-  .news-description {
-    font-family: "Inter", sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 12px;
-  }
-  .read-more {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 5px;
+  .newscontent {
+    max-width: 420px;
   }
 }
-
-@media screen and (min-width: 767px) and (max-width: 850px) {
-  .newscontent {
-    height: 460px;
-    width: 245px;
-    border-radius: 24px;
-    background-color: white;
+@media screen and (max-width: 480px) {
+  .news .gal-bb {
+    margin-left: 0;
   }
-  .news-content {
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 851px) and (max-width: 1025px) {
-  .newscontent {
-    height: 460px;
-    width: 260px;
-    border-radius: 24px;
-    background-color: white;
-  }
-  .news-content {
-    margin-top: 0;
+  .news > a {
+    display: block;
+    padding: 0 16px;
   }
 }

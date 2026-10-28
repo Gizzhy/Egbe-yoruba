@@ -53,7 +53,7 @@ const SubBodies = () => {
         </div>
         <div className="sub-content">
           <img src={gong2} alt="gangan" className="sub-img" />
-          <span className="sub-w">Yoruba Progresssive Union Aachen</span>
+          <span className="sub-w">Yoruba Progressive Union Aachen</span>
         </div>
         <div className="sub-content">
           <img src={about5} alt="gangan" className="sub-img" />

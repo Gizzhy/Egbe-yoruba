@@ -25,7 +25,14 @@ const Mission = () => {
       <div className="mission">
         <div className="mission1">
           <div className="mission1-1">
-            <img src={gal15} alt="yoruba lady" className="mission-img1" />
+            <img
+              src={gal15}
+              alt="EIOYG members in traditional attire"
+              className="mission-img1"
+              width="1008"
+              height="454"
+              loading="lazy"
+            />
           </div>
           <div className="mission1-2">
             <p className="mis-w">Our Mission And Goal</p>
@@ -88,7 +95,9 @@ const Mission = () => {
                 </div>
               </div>
             </div>
-            <button className="mis-button">Join Us</button>
+            <a href="/contact" className="mis-button">
+              Join Us
+            </a>
           </div>
         </div>
         <div className="mission2">

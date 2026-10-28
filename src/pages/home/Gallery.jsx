@@ -1,5 +1,5 @@
 import "../../styles/gallery.css";
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import gal1 from "../../assets/gallery/images/gal1.jpg";
 import gal2 from "../../assets/gallery/images/gal2.jpg";
 import gal5 from "../../assets/gallery/images/gal5.jpg";
@@ -24,18 +24,6 @@ import gal8vid from "../../assets/gallery/videos/gal8vid2022.mp4";
 
 const Gallery = () => {
   const [activeButton, setActiveButton] = useState("button1");
-  const videoRef = useRef(null);
-
-  const playPause = () => {
-    const video = videoRef.current;
-
-    if (video.paused) {
-      video.play();
-    } else {
-      video.pause();
-    }
-  };
-
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
   };
@@ -105,22 +93,25 @@ const Gallery = () => {
                   <div className="gallery-area1">
                     <img
                       src={gal11}
-                      alt="Image 1"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area2">
                     <img
                       src={gal8}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area2">
                     <img
                       src={eiog31}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -131,22 +122,25 @@ const Gallery = () => {
                   <div className="gallery-area1">
                     <img
                       src={gal5}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area2">
                     <img
                       src={gal6}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area3">
                     <img
                       src={gal10}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -157,26 +151,24 @@ const Gallery = () => {
                   <div className="gallery-area1">
                     <img
                       src={eiog32}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div
                     className="gallery-area1v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal6vid} type="video/mp4" />
                     </video>
                   </div>
                   <div className="gallery-area3">
                     <img
                       src={gal12}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -192,22 +184,25 @@ const Gallery = () => {
                   <div className="gallery-area1">
                     <img
                       src={gal1}
-                      alt="Image 1"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area2">
                     <img
                       src={gal2}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area3">
                     <img
                       src={eiog33}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -218,22 +213,25 @@ const Gallery = () => {
                   <div className="gallery-area1">
                     <img
                       src={gal5}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area2">
                     <img
                       src={gal6}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area3">
                     <img
                       src={gal7}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -244,22 +242,25 @@ const Gallery = () => {
                   <div className="gallery-area1">
                     <img
                       src={gal8}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area2">
                     <img
                       src={gal9}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                   <div className="gallery-area3">
                     <img
                       src={eiog33}
-                      alt="Image 2"
+                      alt="Photo from an EIOYG community event"
                       className="image-gallery-image"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -274,34 +275,22 @@ const Gallery = () => {
                 <div className="gallery-area0">
                   <div
                     className="gallery-area1v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal1vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area1v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal2vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area3v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal3vid} type="video/mp4" />
                     </video>
                   </div>
@@ -312,34 +301,22 @@ const Gallery = () => {
                 <div className="gallery-area0">
                   <div
                     className="gallery-area1v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal4vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area1v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal5vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area3v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal6vid} type="video/mp4" />
                     </video>
                   </div>
@@ -350,23 +327,15 @@ const Gallery = () => {
                 <div className="gallery-area0">
                   <div
                     className="gallery-area1v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" controls>
+                    <video width="100%" controls preload="metadata">
                       <source src={gal7vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area1v"
-                    onClick={playPause}
-                    style={{
-                      cursor: "pointer",
-                    }}
                   >
-                    <video ref={videoRef} width="100%" height="100%" controls>
+                    <video width="100%" height="100%" controls preload="metadata">
                       <source src={gal8vid} type="video/mp4" />
                     </video>
                   </div>

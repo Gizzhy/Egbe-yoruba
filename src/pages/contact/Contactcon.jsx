@@ -11,7 +11,12 @@ const Contactcon = () => {
             <p className="concon-w">
               you want to make enquiries or know more about us
             </p>
-            <img src={map} alt="map" className="con-map" />
+            <img
+              src={map}
+              alt="Map of the EIOYG location"
+              className="con-map"
+              loading="lazy"
+            />
           </div>
           {/* contact area */}
           <div className="concon2-2">
@@ -21,33 +26,43 @@ const Contactcon = () => {
                 <p className="cont-w1">Contact Us</p>
                 <div className="cont-form">
                   <form action="/#">
-                    <p className="cont-w2">Name</p>
+                    <label className="cont-w2" htmlFor="contact-name">
+                      Name
+                    </label>
                     <input
+                      id="contact-name"
                       type="text"
                       name="name"
+                      autoComplete="name"
                       className="cont-inputop"
                       required
                     ></input>
                     {/* next */}
-                    <p className="cont-w2">E-mail Address</p>
+                    <label className="cont-w2" htmlFor="contact-email">
+                      E-mail Address
+                    </label>
                     <input
-                      type="text"
-                      name="name"
+                      id="contact-email"
+                      type="email"
+                      name="email"
+                      autoComplete="email"
                       className="cont-inputop"
                       required
                     ></input>
                     {/* next */}
-                    <p className="cont-w2">Message</p>
-                    <input
-                      type="text"
-                      name="name"
+                    <label className="cont-w2" htmlFor="contact-message">
+                      Message
+                    </label>
+                    <textarea
+                      id="contact-message"
+                      name="message"
                       className="cont-inputtop"
                       required
-                    ></input>
+                    ></textarea>
                     <div className="conbut-a">
                       <button className="cont-button">
                         <p>Send Message</p>
-                        <img src={paperplane} className="paper-b" />
+                        <img src={paperplane} className="paper-b" alt="" />
                       </button>
                     </div>
                   </form>

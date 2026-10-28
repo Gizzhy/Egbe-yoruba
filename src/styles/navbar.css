@@ -1,13 +1,14 @@
 .logo {
   cursor: pointer;
-  width: 45%;
-  margin-right: -330px;
+  display: block;
+  width: 77px;
+  height: auto;
 }
 .nav-container {
   position: fixed;
   top: 0;
-  bottom: 0;
-  width: 94vw;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,8 +22,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding: 0 1rem;
   .nav-item:not(:last-child) {
-    margin-right: 5rem;
+    /* 5rem on wide screens, tightening towards the 900px hamburger breakpoint */
+    margin-right: clamp(1.25rem, 9vw - 3rem, 5rem);
   }
 }
 .nav-link {
@@ -34,6 +38,7 @@
   font-weight: 400;
   font-size: 18px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .nav-item a:hover {
   background-image: url("../assets/images/grunge.svg");
@@ -45,6 +50,7 @@
 .nav-end {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 1rem;
 }
 .con-b {
@@ -73,18 +79,36 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media only screen and (min-width: 50.0625em) {
+.nav-icon {
+  display: none;
+}
+
+@media only screen and (min-width: 901px) {
   .mobile-nav {
     display: none;
   }
 }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (min-width: 901px) and (max-width: 1150px) {
+  .nav-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .nav-item a,
+  .contact-button {
+    font-size: 16px;
+  }
+  .contact-button {
+    width: 7.5rem;
+    height: 3.25rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .nav-container {
     background-color: white;
     height: 40px;
-    padding: 29.44px;
-    width: 89vw;
+    padding: 29.44px 16px;
   }
   .nav-list {
     display: none;
@@ -95,47 +119,57 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 2rem;
-    height: 2rem;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
     border-radius: 50%;
+    background: transparent;
+  }
+  .nav-icon:focus-visible {
+    outline: 3px solid #f28c0f;
+    outline-offset: 2px;
   }
   .bar1,
   .bar2 {
+    display: block;
     width: 25px;
     height: 2px;
     background-color: #4c3928;
-    /* border-radius: 1rem; */
     margin: 4px 0;
     transition: transform 0.5s ease; /* Slower transition */
   }
-  /* Your existing CSS for .nav-icon, .bar1, .bar2, etc. */
-  .bar1.rotate {
+  .nav-icon.open .bar1 {
     transform: rotate(45deg) translate(4px, 4px);
   }
 
-  .bar2.rotate {
+  .nav-icon.open .bar2 {
     transform: rotate(-45deg) translate(4px, -4px);
   }
 
   .mobile-nav {
     position: fixed;
-    top: 6.1rem; /* Adjust the top position as needed */
-    right: 0; /* Place it on the right side of the screen */
-    width: 100vw; /* Take full width */
-    height: 100vh;
-    /* background: rgba(255, 255, 255, 0.6); */
+    top: 98.88px; /* navbar height: 40px + 2 × 29.44px padding */
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
 
     background-color: rgba(242, 140, 15, 0.93);
     backdrop-filter: blur(4px);
     transform: translateX(100%);
-    transition: transform 0.3s ease;
+    visibility: hidden; /* keeps hidden links out of the tab order */
+    transition: transform 0.3s ease, visibility 0s linear 0.3s;
     display: flex;
     flex-direction: column; /* Arrange vertically */
     align-items: flex-end; /* Align to the right side */
+    padding: 0.5rem 0;
   }
   .mobile-nav.show {
     transform: translateX(0);
+    visibility: visible;
+    transition: transform 0.3s ease, visibility 0s;
   }
   .mobile-nav a {
     font-family: "Inter", sans-serif;
@@ -144,7 +178,7 @@
     text-decoration: none;
     padding: 1rem;
     font-weight: 700;
-    font-size: 25px;
+    font-size: clamp(20px, 5.5vw, 25px);
   }
   .contact-button {
     display: flex;
@@ -154,9 +188,27 @@
     text-decoration: none;
     color: white;
     width: 105px;
-    height: 42px;
+    height: 44px;
     border-radius: 10px;
     background-color: #f28c0f;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .logo {
+    width: 64px;
+  }
+  .contact-button {
+    width: 92px;
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-nav,
+  .bar1,
+  .bar2 {
+    transition: none;
   }
 }
 
@@ -164,11 +216,8 @@ a {
   text-decoration: none;
 }
 
-/* Default styling for all navigation links */
-
 /* Styling for the active (current) navigation link */
 .nav-item.active a {
-  /* color: #4c3928;  */
   color: #4c3928 !important;
   font-weight: 600;
 }

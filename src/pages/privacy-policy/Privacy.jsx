@@ -33,7 +33,7 @@ const Privacy = () => {
           information necessary to manage membership records within the
           organization.
         </p>
-        <p className="ab-3">
+        <div className="ab-3">
           This may include:
           <ul>
             <li>Member name</li>
@@ -43,8 +43,8 @@ const Privacy = () => {
           </ul>
           This information is used solely for managing membership records and
           tracking union dues within the Yoruba Progressive Union organization.
-        </p>
-        <p className="ab-3">
+        </div>
+        <div className="ab-3">
           <strong>How We Use Information</strong>
           <ul>
             <li>Maintain accurate membership records</li>
@@ -54,7 +54,7 @@ const Privacy = () => {
           </ul>
           We do not use personal information for advertising or marketing
           purposes.
-        </p>
+        </div>
         <p className="ab-3">
           <strong>Data Sharing</strong> <br />
           We do not sell, trade, or rent users’ personal information to third

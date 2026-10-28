@@ -18,7 +18,14 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer1">
           <div className="footer1-1">
-            <img src={logo3} alt="logo" className="foot-logo" />
+            <img
+              src={logo3}
+              alt="Egbe Isokan Omo Yoruba Germany logo"
+              className="foot-logo"
+              width="500"
+              height="500"
+              loading="lazy"
+            />
             <p className="foot-w">
               It is our pleasure to introduce you to Egbe Isokan Omo Yoruba
               Germany e.V., (EIOYG), a progressive group formed solely to
@@ -29,7 +36,7 @@ const Footer = () => {
               activities, and strengthening the bonds between its members.
             </p>
             <div className="foot-way">
-              <img src={location} alt="location" className="foot-icon" />
+              <img src={location} alt="Location" className="foot-icon" />
               <p className="foot-oro">Berlin, Germany</p>
             </div>
           </div>
@@ -50,16 +57,16 @@ const Footer = () => {
               </a>
             </div>
             <div className="footer1-2-2">
-              <a href="/">
+              <a href="/contact">
                 <p className="foot-links">Contact Us</p>
               </a>
               <div className="foot-way">
-                <img src={call} alt="location" className="foot-icon" />
+                <img src={call} alt="Phone" className="foot-icon" />
                 <p className="foot-oro">+49 176 323 98400</p>
               </div>
               <br />
               <div className="foot-way">
-                <img src={mail} alt="location" className="foot-icon" />
+                <img src={mail} alt="E-mail" className="foot-icon" />
                 <p className="foot-oro">secretary@isokanyoruba.com</p>
               </div>
             </div>
@@ -68,24 +75,25 @@ const Footer = () => {
           <div className="footer1-1">
             <p className="foot-oo">Newsletter</p>
             <p className="foot-o">
-              Provide Your E-mail Address To Subscribe To Our News Letters
+              Provide Your E-mail Address To Subscribe To Our Newsletters
             </p>
             <form action="/#" className="foot-form">
               <input
                 type="email"
                 name="email"
                 placeholder="Enter Your E-mail Address"
+                aria-label="E-mail address for the newsletter"
                 required
               ></input>
-              <button className="foot-b">
-                <img src={arrow} alt="submit" className="foot-bb" />
+              <button className="foot-b" aria-label="Subscribe">
+                <img src={arrow} alt="" className="foot-bb" />
               </button>
             </form>
             <div className="foot-socials">
-              <img src={x} alt="submit" className="foot-bbb" />
-              <img src={fb} alt="submit" className="foot-bbb" />
-              <img src={insta} alt="submit" className="foot-bbb" />
-              <img src={yt} alt="submit" className="foot-bbb" />
+              <img src={x} alt="X" className="foot-bbb" />
+              <img src={fb} alt="Facebook" className="foot-bbb" />
+              <img src={insta} alt="Instagram" className="foot-bbb" />
+              <img src={yt} alt="YouTube" className="foot-bbb" />
             </div>
           </div>
         </div>

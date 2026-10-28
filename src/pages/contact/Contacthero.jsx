@@ -13,7 +13,7 @@ const Contacthero = () => {
             </div>
             <div className="conttt">
               <p className="hero-22c">
-                want to join the association of egbe isokan yoruba germany , you
+                want to join the association of egbe isokan yoruba germany, you
                 can send us a message via the contact form below
               </p>
             </div>

@@ -29,24 +29,6 @@ const newsData = [
     link: "/articles/agemo",
   },
 ];
-const newsDataMobile = [
-  {
-    image: ibeji,
-    category: "Stories",
-    title: "Orisa Ibeji",
-    description:
-      "Orisa Ibeji is a Yoruba deity representing twins. In Yoruba culture and spirituality, twins are believed to be magical, and are granted protection by the Orisha Shango...",
-    link: "/articles/orisaibeji",
-  },
-  {
-    image: sango,
-    category: "Stories",
-    title: "Sàngó Olukoso",
-    description:
-      "Sàngó is one of the most powerful and revered deities in Yoruba mythology, Nigeria. He is the god of thunder, lightning, and fire and is associated with strength, justice, and power. His story is rich with...",
-    link: "/articles/sango",
-  },
-];
 
 import React from "react";
 
@@ -60,7 +42,12 @@ const News = () => {
         <div className="newsbody">
           {newsData.map((item, index) => (
             <div key={index} className="newscontent">
-              <img src={item.image} alt={item.title} className="ibeji" />
+              <img
+                src={item.image}
+                alt={item.title}
+                className="ibeji"
+                loading="lazy"
+              />
               <div className="news-content">
                 <p className="news-category">{item.category}</p>
                 <p className="news-title">{item.title}</p>
@@ -68,21 +55,6 @@ const News = () => {
                 <a href={item.link} className="read-more">
                   Read more &#8599;
                 </a>
-              </div>
-            </div>
-          ))}
-          {newsDataMobile.map((item, index) => (
-            <div className="newscontentmobile">
-              <div key={index} className="newscontentmobile">
-                <img src={item.image} alt={item.title} className="ibeji" />
-                <div className="news-content">
-                  <p className="news-category">{item.category}</p>
-                  <p className="news-title">{item.title}</p>
-                  <p className="news-description">{item.description}</p>
-                  <a href={item.link} className="read-more">
-                    Read more &#8599;
-                  </a>
-                </div>
               </div>
             </div>
           ))}

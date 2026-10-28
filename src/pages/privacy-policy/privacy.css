@@ -20,6 +20,10 @@
   text-align: justify;
   padding: 0 40px;
 }
+/* blocks that contain a list are <div>s (a <ul> can't sit inside a <p>) */
+div.ab-3 {
+  margin: 1em 0;
+}
 
 .gongs-img {
   /* position: relative;

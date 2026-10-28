@@ -1,39 +1,41 @@
-// import React, { useState } from "react";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ".././styles/navbar.css";
-// import logo from "../assets/images/logo.svg";
-// import logo2 from "../assets/images/isokanlogo.jpg";
 import logo22 from "../assets/images/isokan22.jpeg";
 
 const Navbar = () => {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(null);
   const [isMobileNavVisible, setMobileNavVisible] = useState(false);
+  const toggleRef = useRef(null);
 
-  const toggleMobileNav = () => {
-    setMobileNavVisible(!isMobileNavVisible);
-  };
+  const closeMobileNav = () => setMobileNavVisible(false);
 
-  const toggleX = () => {
-    const bar1 = document.querySelector(".bar1");
-    const bar2 = document.querySelector(".bar2");
-    bar1.classList.toggle("rotate");
-    bar2.classList.toggle("rotate");
-    toggleMobileNav(); // Call your toggleMobileNav function when the nav-icon is clicked
-  };
   useEffect(() => {
     setActiveLink(location.pathname);
-  }, [location.pathname]);
+    setMobileNavVisible(false);
+  }, [location.pathname, location.hash]);
+
+  useEffect(() => {
+    if (!isMobileNavVisible) return undefined;
+    const onKey = (e) => {
+      if (e.key === "Escape") {
+        setMobileNavVisible(false);
+        toggleRef.current?.focus();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [isMobileNavVisible]);
 
   return (
     <>
-      <nav className="nav-container">
+      <nav className="nav-container" aria-label="Main">
         <a href="/#">
           <img
             src={logo22}
             className="logo"
-            alt="yoruba"
+            alt="Egbe Isokan Omo Yoruba Germany home"
             data-aos="fade-right"
             data-aos-duration="1000"
           />
@@ -43,26 +45,20 @@ const Navbar = () => {
             className={`nav-link nav-item ${
               activeLink === "/" ? "active" : ""
             }`}
-            // data-aos="fade-left"
-            // data-aos-duration="800"
-            // data-aos-delay="600"
           >
             <Link to="/">Home</Link>
           </li>
 
           <li
             className={`nav-link nav-item ${
-              activeLink === "/about" ? "active" : ""
+              activeLink?.startsWith("/about") ? "active" : ""
             }`}
-            // data-aos="fade-left"
-            // data-aos-duration="800"
-            // data-aos-delay="900"
           >
             <Link to="/about">About Us</Link>
           </li>
           <li
             className={`nav-link nav-item ${
-              activeLink === "/" ? "active" : ""
+              activeLink?.startsWith("/articles") ? "active" : ""
             }`}
           >
             <Link to="/articles">Articles</Link>
@@ -71,22 +67,15 @@ const Navbar = () => {
             <Link to="/#events">Upcoming Events</Link>
           </li>
           <li
-            className="nav-item nav-link"
+            className={`nav-item nav-link ${
+              activeLink === "/gallery" ? "active" : ""
+            }`}
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="1200"
           >
             <a href="/gallery">Gallery</a>
           </li>
-
-          {/* <li
-            className="nav-item nav-link"
-            data-aos="fade-left"
-            data-aos-duration="800"
-            data-aos-delay="1500"
-          >
-            <a href="/#">NEWS</a>
-          </li> */}
         </ul>
         <div className="nav-end">
           <div className="con-b">
@@ -100,18 +89,30 @@ const Navbar = () => {
               Contact
             </a>
           </div>
-          <div className="nav-icon" onClick={toggleX}>
-            {/* Call toggleX when the nav-icon is clicked */}
-            <div className="bar1"></div>
-            <div className="bar2"></div>
-          </div>
+          <button
+            ref={toggleRef}
+            type="button"
+            className={`nav-icon ${isMobileNavVisible ? "open" : ""}`}
+            onClick={() => setMobileNavVisible((v) => !v)}
+            aria-expanded={isMobileNavVisible}
+            aria-controls="mobile-nav"
+            aria-label={isMobileNavVisible ? "Close menu" : "Open menu"}
+          >
+            <span className="bar1"></span>
+            <span className="bar2"></span>
+          </button>
         </div>
-        <div className={`mobile-nav ${isMobileNavVisible ? "show" : ""}`}>
+        <div
+          id="mobile-nav"
+          className={`mobile-nav ${isMobileNavVisible ? "show" : ""}`}
+          onClick={(e) => e.target.closest("a") && closeMobileNav()}
+        >
           <a href="/">HOME</a>
           <a href="/about">ABOUT</a>
           <a href="/articles">ARTICLES</a>
           <Link to="/#events">UPCOMING EVENTS</Link>
           <a href="/gallery">GALLERY</a>
+          <a href="/contact">CONTACT</a>
         </div>
       </nav>
     </>

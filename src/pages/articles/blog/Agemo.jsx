@@ -100,15 +100,15 @@ const Agemo = () => {
         <p className="ibeji-oro1">Sacrificial Offerings and Prayers:</p>
         <p className="ibeji-oro">
           Ritual food and/or sacrifice of animals is at the same time a gift for
-          Agnemo, by which is intended to have the blessing from the god
-          (Agmemo). These acts of piety are defined through petition for the
+          Agemo, by which is intended to have the blessing from the god
+          (Agemo). These acts of piety are defined through petition for the
           sake of the common good and for the sake of the individual.
         </p>
-        <p className="ibeji-oro1">Cultural Displays: Cultural Displays:</p>
+        <p className="ibeji-oro1">Cultural Displays:</p>
         <p className="ibeji-oro">
           The festival is also live art, music and food gallery to the Yorubas.
           In the Yoruba drums, song and storytelling are used to convey the
-          great Yoruba cultural heritage .
+          great Yoruba cultural heritage.
         </p>
         <p className="ibeji-oro1">Cultural and Spiritual Significance</p>
         <p className="ibeji-oro">
