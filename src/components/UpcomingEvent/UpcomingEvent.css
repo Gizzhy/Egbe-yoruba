@@ -360,8 +360,20 @@
 }
 
 .ue__rsvp-note a {
+  position: relative;
   color: var(--ue-cream);
   white-space: nowrap;
+}
+
+/* Invisible 44px-tall tap area; the link itself looks unchanged. Extends
+   more downwards (panel padding) than up (gap below the RSVP buttons). */
+.ue__rsvp-note a::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -6px;
+  bottom: -18px;
+  left: -6px;
 }
 
 /* ---------- Donations ---------- */
@@ -433,6 +445,7 @@
 }
 
 .ue-copy {
+  position: relative;
   flex-shrink: 0;
   padding: 6px 12px;
   border: 1px solid var(--ue-teal);
@@ -442,6 +455,17 @@
   font: 600 0.75rem/1 var(--ue-sans);
   cursor: pointer;
   transition: background-color 0.2s, color 0.2s;
+}
+
+/* Invisible 44px-tall tap area (button is 26px); stays inside the row's
+   10px vertical padding, so neighbouring rows aren't covered. */
+.ue-copy::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -4px;
+  bottom: -10px;
+  left: -4px;
 }
 
 .ue-copy:hover {
