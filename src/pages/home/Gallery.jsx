@@ -21,6 +21,14 @@ import gal5vid from "../../assets/gallery/videos/gal5vid2022.mp4";
 import gal6vid from "../../assets/gallery/videos/gal6vid2022.mp4";
 import gal7vid from "../../assets/gallery/videos/gal7vid2022.mp4";
 import gal8vid from "../../assets/gallery/videos/gal8vid2022.mp4";
+import gal1poster from "../../assets/gallery/posters/gal1vid2022.jpg";
+import gal2poster from "../../assets/gallery/posters/gal2vid2022.jpg";
+import gal3poster from "../../assets/gallery/posters/gal3vid2022.jpg";
+import gal4poster from "../../assets/gallery/posters/gal4vid2022.jpg";
+import gal5poster from "../../assets/gallery/posters/gal5vid2022.jpg";
+import gal6poster from "../../assets/gallery/posters/gal6vid2022.jpg";
+import gal7poster from "../../assets/gallery/posters/gal7vid2022.jpg";
+import gal8poster from "../../assets/gallery/posters/gal8vid2022.jpg";
 
 const Gallery = () => {
   const [activeButton, setActiveButton] = useState("button1");
@@ -159,7 +167,12 @@ const Gallery = () => {
                   <div
                     className="gallery-area1v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal6poster}
+                    >
                       <source src={gal6vid} type="video/mp4" />
                     </video>
                   </div>
@@ -276,21 +289,36 @@ const Gallery = () => {
                   <div
                     className="gallery-area1v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal1poster}
+                    >
                       <source src={gal1vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area1v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal2poster}
+                    >
                       <source src={gal2vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area3v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal3poster}
+                    >
                       <source src={gal3vid} type="video/mp4" />
                     </video>
                   </div>
@@ -302,21 +330,36 @@ const Gallery = () => {
                   <div
                     className="gallery-area1v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal4poster}
+                    >
                       <source src={gal4vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area1v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal5poster}
+                    >
                       <source src={gal5vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area3v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal6poster}
+                    >
                       <source src={gal6vid} type="video/mp4" />
                     </video>
                   </div>
@@ -328,14 +371,24 @@ const Gallery = () => {
                   <div
                     className="gallery-area1v"
                   >
-                    <video width="100%" controls preload="metadata">
+                    <video
+                      width="100%"
+                      controls
+                      preload="none"
+                      poster={gal7poster}
+                    >
                       <source src={gal7vid} type="video/mp4" />
                     </video>
                   </div>
                   <div
                     className="gallery-area1v"
                   >
-                    <video width="100%" height="100%" controls preload="metadata">
+                    <video
+                      width="100%" height="100%"
+                      controls
+                      preload="none"
+                      poster={gal8poster}
+                    >
                       <source src={gal8vid} type="video/mp4" />
                     </video>
                   </div>
